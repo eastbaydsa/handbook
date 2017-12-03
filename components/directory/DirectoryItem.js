@@ -6,7 +6,11 @@ class DirectoryItem extends PureComponent {
     return (
       <div>
         <p>{this.props.text}</p>
-        {this.props.links.map(l => <a href={l.href}>{l.label}</a>)}
+        {this.props.links.map(l => (
+          <a key={l.href} href={l.href}>
+            {l.label}
+          </a>
+        ))}
       </div>
     );
   }

@@ -1,3 +1,4 @@
+import stylesheet from "../styles/index.css";
 import WelcomeSection from "../components/sections/WelcomeSection";
 import WhySection from "../components/sections/WhySection";
 import MembershipSection from "../components/sections/MembershipSection";
@@ -8,6 +9,7 @@ import DirectorySection from "../components/sections/DirectorySection";
 
 const Index = () => (
   <div>
+    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <WelcomeSection />
     <WhySection />
     <MembershipSection />

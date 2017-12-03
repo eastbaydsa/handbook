@@ -1,22 +1,23 @@
 import React, { PureComponent } from "react";
 import Directory from "../directory/Directory";
 import DirectoryItem from "../directory/DirectoryItem";
+import { H2, P } from "../typography";
 
 class DirectorySection extends PureComponent {
   render() {
     return (
       <div>
-        <h2>Directory</h2>
-        <p>
+        <H2>Directory</H2>
+        <P>
           Trying to reach out, but not sure who you should talk to? Look no
           further!
-        </p>
-        <p>
+        </P>
+        <P>
           Bear in mind, though, that like everything else, our departments are
           all-volunteer. Depending on communications backlog and the number of
           people we have on a given address, turnaround could be anywhere from a
           few minutes to a couple days.
-        </p>
+        </P>
         <Directory>
           <DirectoryItem
             text="If you have a burning question for our Local Council Leadership"

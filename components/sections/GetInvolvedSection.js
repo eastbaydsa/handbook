@@ -1,12 +1,13 @@
 import React, { PureComponent } from "react";
 import SideBar from "../SideBar";
+import { H2, H3, P, Strong } from "../typography";
 
 class GetInvolvedSection extends PureComponent {
   render() {
     return (
       <div>
-        <h2>What do I do as a member?</h2>
-        <p>
+        <H2>What do I do as a member?</H2>
+        <P>
           The way our active members become active members is usually, “show up
           to meetings, then take on work.” We have a variety of meetings every
           month: each of them should include opportunities for members to dig
@@ -15,13 +16,13 @@ class GetInvolvedSection extends PureComponent {
           feedback or questions.) If you’re not sure how or where to get
           involved, you’ll find suggestions in this section, and you can also
           check out the directories at the end of this document.
-        </p>
-        <p>
+        </P>
+        <P>
           We think of all DSA members as socialist organizers (that’s what it
           says on your membership card!), but at the same time we know that
           almost no one comes to DSA a fully formed socialist organizer.
-        </p>
-        <p>
+        </P>
+        <P>
           Organizing requires us all to develop a variety of skills: being able
           to map out a social group, identifying natural leaders, figuring out
           what people need to hear in order to bring their best, and making
@@ -30,36 +31,36 @@ class GetInvolvedSection extends PureComponent {
           figuring out what friends to invite to which events, testing which
           appeals work on Your Uncle at Thanksgiving, and otherwise advancing
           socialism through honest conversations.
-        </p>
-        <p>
+        </P>
+        <P>
           Organizing also requires practical skills like being reliable,
           organized, and communicative about your limits and your availability.
-        </p>
-        <p>
+        </P>
+        <P>
           That said, here are some easy ways in! If you’re ever not sure or have
           questions, email{" "}
           <a href="mailto:newmember@eastbaydsa.org">newmember@eastbaydsa.org</a>.
           You can also check{" "}
           <a href="http://eastbaydsa.org/events">eastbaydsa.org/events</a> for a
           continually refreshed set of things to show up to.
-        </p>
-        <h3>
+        </P>
+        <H3>
           Are you interested in hitting the streets, talking with your
           neighbors, and expanding the movement?
-        </h3>
-        <p>
+        </H3>
+        <P>
           Our District Canvass teams meet once a month to go door-to-door in
           their neighborhoods and bring in new supporters for socialist
           campaigns like national Medicare-for-All or the efforts for
           single-payer in California.
-        </p>
-        <p>
+        </P>
+        <P>
           More than just knocking-and-talking, a good canvass will break down
           barriers between you and your neighbors and make space for meaningful
           conversations about the issues that materially affect our lives. No
           experience is necessary: canvassing training is provided every time,
           and you always canvass with a partner.
-        </p>
+        </P>
         <SideBar title="Showing up builds trust" style="red">
           There is a spectre haunting NorCal: the spectre of flakiness. People
           say “we should meet up!” and never follow through. Good-sounding ideas
@@ -72,13 +73,13 @@ class GetInvolvedSection extends PureComponent {
           seriously build a structure strong enough to remake the world, we need
           to show up on time for meetings.
         </SideBar>
-        <p>
+        <P>
           These District Canvass teams are coordinated by our External
           Organizing Committee, which meets the last Tuesday of every month to
           bring new organizers into our public-facing political campaigns.
           Specific canvass dates are always posted on eastbaydsa.org and usually
           mirrored on the chapter Facebook events page.
-        </p>
+        </P>
         <SideBar>
           In this organization, what you do matters. We might be socially
           conditioned to window-shop every single possible choice until the last
@@ -90,26 +91,26 @@ class GetInvolvedSection extends PureComponent {
           going to get fired or yelled at if you get overwhelmed or drop the
           ball every once in awhile. But when you honor people’s time and
           energy, you build trust.{" "}
-          <strong>When we have strong bonds of trust, we build power.</strong>
+          <Strong>When we have strong bonds of trust, we build power.</Strong>
         </SideBar>
-        <h3>Are you stressed and need an opportunity to relax and hang out?</h3>
-        <p>
-          The monthly <strong>No-Work Picnic</strong> happens on the last Sunday
+        <H3>Are you stressed and need an opportunity to relax and hang out?</H3>
+        <P>
+          The monthly <Strong>No-Work Picnic</Strong> happens on the last Sunday
           of every month, usually in Mosswood Park. Bring a blanket, snacks, and
           an appetite for comradely bonding!
-        </p>
-        <h3>There’s also a lot of room for bottom-up creation.</h3>
-        <p>
+        </P>
+        <H3>There’s also a lot of room for bottom-up creation.</H3>
+        <P>
           If you want to do informal sociable things with your comrades like
           rock climbing, book clubs, or park clean-ups,{" "}
-          <strong>just start doing it</strong>. Our movement gets stronger when
+          <Strong>just start doing it</Strong>. Our movement gets stronger when
           we have a strong body of activities that stitch us together alongside
           the work. (Internal Organizers might still be able to point you out to
           people with similar interests, but you don’t need anyone’s
           permission.)
-        </p>
-        <p>
-          If you have an idea for <strong>something more official</strong>, like
+        </P>
+        <P>
+          If you have an idea for <Strong>something more official</Strong>, like
           putting together an Earthquake Preparedness Plan, coordinating an
           event with another local organization, or tabling at the Coliseum BART
           stop on game days, it helps to be plugged in. Find the committee (or
@@ -119,11 +120,11 @@ class GetInvolvedSection extends PureComponent {
           logistical work surrounding your idea (and round up previously
           inactive members or interested non-members to help), the more likely
           you are to make it happen quickly.
-        </p>
-        <p>
+        </P>
+        <P>
           If you want to gather folks together in self-organizing but ongoing
-          ways, you might want to join or start a <strong>caucus</strong>.
-        </p>
+          ways, you might want to join or start a <Strong>caucus</Strong>.
+        </P>
         <SideBar title="Forming a caucus" style="red">
           Caucuses are independent formations of members within the Local.
           They’re a big part of internal democracy. If you think we need to do
@@ -141,23 +142,23 @@ class GetInvolvedSection extends PureComponent {
           the name and purpose of the caucus, and send it to the Local
           Secretary.
         </SideBar>
-        <h3>Things that need an official, democratic sign-off</h3>
-        <p>
+        <H3>Things that need an official, democratic sign-off</H3>
+        <P>
           While we encourage self-organizing, there are still a couple of things
           where it’s important to get approval from the larger body of the
           membership (or their elected representatives).
-        </p>
-        <p>
-          <strong>ELECTORAL ENDORSEMENTS:</strong> You can feel free to get
+        </P>
+        <P>
+          <Strong>ELECTORAL ENDORSEMENTS:</Strong> You can feel free to get
           involved in a campaign as an individual, but the big-tent nature of
           our org makes it important that the collective membership gets to vote
           on it before someone starts claiming a DSA endorsement. Official
           endorsements require a full meeting and vote of the general mem-
           bership (or in fast-moving and/ or emergency circumstances, a
           three-quarters vote from the Local Council.)
-        </p>
-        <p>
-          <strong>SPEAKING FOR THE GROUP:</strong> Be mindful of when you’re
+        </P>
+        <P>
+          <Strong>SPEAKING FOR THE GROUP:</Strong> Be mindful of when you’re
           representing the org and when you’re speaking as an individual. This
           isn’t a hard and fast rule, but basically, if you’re in communication
           with another organization, a business, or the press, feel free to
@@ -169,23 +170,23 @@ class GetInvolvedSection extends PureComponent {
           space. Local Council and general membership meetings vote to approve
           positions, events, and strategies for the chapter; any work done by
           caucuses or ad hoc members should be presented as such.
-        </p>
-        <p>
-          <strong>
+        </P>
+        <P>
+          <Strong>
             STARTING A MAJOR NEW PROJECT OR FORMING AN OFFICIAL WORKING GROUP:
-          </strong>{" "}
+          </Strong>{" "}
           We want to build institutional memory and coordinated effort, so we
           don’t have to reinvent the wheel every time we want to print up flyers
           or get T-shirts made.
-        </p>
-        <p>
+        </P>
+        <P>
           What this means in practice is that we focus our all-important
           resources of member time and energy on democratically determined
           priorities, building expertise in the standing committees and project
           teams, while committee member conversations and caucus meetings act as
           laboratories for new projects and initiatives.
-        </p>
-        <p>
+        </P>
+        <P>
           If you’ve gotten involved with the IOC or EOC and find that there is a
           specific need that is not being met by existing teams, you can talk to
           an Organizer about your ideas and work together to develop a proposal
@@ -195,7 +196,7 @@ class GetInvolvedSection extends PureComponent {
           and independent), the Local Council can authorize the creation of an
           official Working Group by appointing two Co-Chairs, who will sit as
           nonvoting members on the Local Council.
-        </p>
+        </P>
       </div>
     );
   }
