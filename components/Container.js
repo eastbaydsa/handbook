@@ -2,9 +2,8 @@ import React, { PureComponent } from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  max-width: 860px;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  max-width: 740px;
+  padding: 0 20px;
 `;
 
 export default Container;
