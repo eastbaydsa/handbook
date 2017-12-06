@@ -1,3 +1,4 @@
+import React from "react";
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
@@ -13,9 +14,10 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <html lang="en">
         <Head>
-          <title>My page</title>
+          <title>EBDSA Handbook</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           {this.props.styleTags}
         </Head>
         <body>
