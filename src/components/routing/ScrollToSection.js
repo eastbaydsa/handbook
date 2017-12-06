@@ -1,5 +1,4 @@
 import { Component } from "react";
-import { withRouter } from "next/router";
 import smoothScroll from "smooth-scroll";
 
 class ScrollToSection extends Component {
@@ -43,4 +42,4 @@ class ScrollToSection extends Component {
   }
 }
 
-export default withRouter(ScrollToSection);
+export default ScrollToSection;

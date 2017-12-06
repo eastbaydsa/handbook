@@ -1,15 +1,15 @@
 import React from "react";
-import stylesheet from "../styles/index.css";
-import TopNav from "../components/sections/TopNav";
-import TOC from "../components/sections/TOC";
-import Cover from "../components/sections/Cover";
-import WelcomeSection from "../components/sections/WelcomeSection";
-import WhySection from "../components/sections/WhySection";
-import MembershipSection from "../components/sections/MembershipSection";
-import GetInvolvedSection from "../components/sections/GetInvolvedSection";
-import StructureSection from "../components/sections/StructureSection";
-import ConflictSection from "../components/sections/ConflictSection";
-import DirectorySection from "../components/sections/DirectorySection";
+import stylesheet from "./styles/index.css";
+import TopNav from "./components/sections/TopNav";
+import TOC from "./components/sections/TOC";
+import Cover from "./components/sections/Cover";
+import WelcomeSection from "./components/sections/WelcomeSection";
+import WhySection from "./components/sections/WhySection";
+import MembershipSection from "./components/sections/MembershipSection";
+import GetInvolvedSection from "./components/sections/GetInvolvedSection";
+import StructureSection from "./components/sections/StructureSection";
+import ConflictSection from "./components/sections/ConflictSection";
+import DirectorySection from "./components/sections/DirectorySection";
 
 const links = [
   { label: "Welcome", href: "#welcome" },
@@ -27,7 +27,7 @@ const links = [
   { label: "Directory", href: "#directory" }
 ];
 
-const Index = () => (
+const App = () => (
   <div>
     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <TopNav links={links} />
@@ -43,4 +43,4 @@ const Index = () => (
   </div>
 );
 
-export default Index;
+export default App;

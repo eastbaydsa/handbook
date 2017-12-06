@@ -1,12 +1,17 @@
 import React, { Component } from "react";
+import styled from "styled-components";
 import PropTypes from "prop-types";
 import Waypoint from "react-waypoint";
-import Router from "next/router";
+
+const Anchor = styled.div`
+  position: relative;
+  top: -100px;
+`;
 
 class NavAnchor extends Component {
   updateBrowserHistory = () => {
-    console.log(Router.replace);
-    Router.replace(`#${this.props.anchor}`);
+    // console.log(Router.replace);
+    // Router.replace(`#${this.props.anchor}`);
   };
 
   render() {
@@ -21,7 +26,7 @@ class NavAnchor extends Component {
         onEnter={this.updateBrowserHistory}
         fireOnRapidScroll={false}
       >
-        <div id={this.props.anchor} />
+        <Anchor id={this.props.anchor} />
       </Waypoint>
     );
   }

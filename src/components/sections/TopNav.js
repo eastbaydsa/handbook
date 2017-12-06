@@ -25,12 +25,9 @@ const Menu = styled.div`
 `;
 
 class TopNav extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isOpen: true
-    };
-  }
+  state = {
+    isOpen: false
+  };
 
   componentDidMount() {
     window.document.addEventListener("click", this.closeIfClickOutside);
