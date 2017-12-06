@@ -10,12 +10,12 @@ npm install
 npm run start
 ```
 
-# Deploying changes to handbook.dsa.org
+# Deploying changes to handbook.eastbaydsa.org
 
 The site is deployed using a service called [Surge](https://surge.sh).
 
 DSA Ops has a Surge account with permission to deploy the project to
-`http://handbook.dsa.org`.
+`http://handbook.eastbaydsa.org`.
 
 ## Signing into Surge
 
