@@ -1,8 +1,19 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-snapshot";
+import { BrowserRouter as Router } from "react-router-dom";
+import ScrollToSectionWithRouter from "./components/routing/ScrollToSection";
 import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+require("smoothscroll-polyfill").polyfill();
+
+render(
+  <Router>
+    <ScrollToSectionWithRouter>
+      <App />
+    </ScrollToSectionWithRouter>
+  </Router>,
+  document.getElementById("root")
+);
 registerServiceWorker();

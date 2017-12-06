@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 
 function IndexLink(props) {
   return (
-    <Link href={props.href}>
+    <Link to={props.to} onClick={props.onClick}>
       <Wrapper>
         <Number>{props.number}</Number>
         <span>{props.label}</span>

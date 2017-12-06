@@ -1,5 +1,6 @@
 import React from "react";
-import stylesheet from "./styles/index.css";
+import { Route, Switch } from "react-router-dom";
+
 import TopNav from "./components/sections/TopNav";
 import TOC from "./components/sections/TOC";
 import Cover from "./components/sections/Cover";
@@ -12,24 +13,23 @@ import ConflictSection from "./components/sections/ConflictSection";
 import DirectorySection from "./components/sections/DirectorySection";
 
 const links = [
-  { label: "Welcome", href: "#welcome" },
-  { label: "Why are we here?", href: "#why" },
-  { label: "What does it mean to be a member?", href: "#membership" },
-  { label: "What do I do as a member?", href: "#get-involved" },
+  { label: "Welcome", to: "/welcome" },
+  { label: "Why are we here?", to: "/why" },
+  { label: "What does it mean to be a member?", to: "/membership" },
+  { label: "What do I do as a member?", to: "/get-involved" },
   {
     label: "What's the organizational structure of the DSA?",
-    href: "#structure"
+    to: "/structure"
   },
   {
     label: "I have a conflict with someone in the EB DSA. What should I do?",
-    href: "#conflict"
+    to: "/conflict"
   },
-  { label: "Directory", href: "#directory" }
+  { label: "Directory", to: "/directory" }
 ];
 
-const App = () => (
+const Content = () => (
   <div>
-    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <TopNav links={links} />
     <Cover />
     <TOC links={links} />
@@ -42,5 +42,15 @@ const App = () => (
     <DirectorySection anchor="directory" />
   </div>
 );
+
+function App() {
+  return (
+    <Switch>
+      <Route path="/:section/:candidate" component={Content} />
+      <Route path="/:section" component={Content} />
+      <Route path="/" component={Content} />
+    </Switch>
+  );
+}
 
 export default App;
