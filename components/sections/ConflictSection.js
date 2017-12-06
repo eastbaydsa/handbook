@@ -3,11 +3,13 @@ import Figure from "../Figure";
 import { H2, P, Strong } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
+import NavAnchor from "../NavAnchor";
 
 class ConflictSection extends PureComponent {
   render() {
     return (
       <Section>
+        <NavAnchor anchor={this.props.anchor} />
         <Container>
           <H2>I have a conflict with someone in EB DSA. What should I do?</H2>
           <P>

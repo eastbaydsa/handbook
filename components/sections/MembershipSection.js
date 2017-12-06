@@ -4,11 +4,13 @@ import SideBar from "../SideBar";
 import { H2, P, Strong } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
+import NavAnchor from "../NavAnchor";
 
 class MembershipSection extends PureComponent {
   render() {
     return (
       <Section>
+        <NavAnchor anchor={this.props.anchor} />
         <Container>
           <H2>What does it mean to be a member?</H2>
           <P>

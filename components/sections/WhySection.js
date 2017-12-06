@@ -4,11 +4,13 @@ import Figure from "../Figure";
 import { H2, P, Strong } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
+import NavAnchor from "../NavAnchor";
 
 class WhySection extends PureComponent {
   render() {
     return (
       <Section>
+        <NavAnchor anchor={this.props.anchor} />
         <Container>
           <H2>Why are we here?</H2>
           <P>

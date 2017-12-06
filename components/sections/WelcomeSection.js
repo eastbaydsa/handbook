@@ -2,11 +2,13 @@ import React, { PureComponent } from "react";
 import Container from "../Container";
 import Section from "../Section";
 import { H2, P, Strong } from "../typography";
+import NavAnchor from "../NavAnchor";
 
 class WelcomeSection extends PureComponent {
   render() {
     return (
       <Section>
+        <NavAnchor anchor={this.props.anchor} />
         <Container>
           <H2>Welcome to East Bay DSA. We’re glad you’re here.</H2>
           <P>

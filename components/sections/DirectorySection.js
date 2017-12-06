@@ -4,11 +4,13 @@ import DirectoryItem from "../directory/DirectoryItem";
 import { H2, P } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
+import NavAnchor from "../NavAnchor";
 
 class DirectorySection extends PureComponent {
   render() {
     return (
       <Section>
+        <NavAnchor anchor={this.props.anchor} />
         <Container>
           <H2>Directory</H2>
           <P>

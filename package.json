@@ -30,6 +30,9 @@
     "raw-loader": "^0.5.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-waypoint": "^7.3.2",
+    "smooth-scroll": "^12.1.5",
     "styled-components": "^2.2.4"
   },
   "devDependencies": {

@@ -1,3 +1,4 @@
+import React from "react";
 import stylesheet from "../styles/index.css";
 import TopNav from "../components/sections/TopNav";
 import TOC from "../components/sections/TOC";
@@ -11,19 +12,19 @@ import ConflictSection from "../components/sections/ConflictSection";
 import DirectorySection from "../components/sections/DirectorySection";
 
 const links = [
-  { label: "Welcome", to: "/welcome" },
-  { label: "Why are we here?", to: "/why" },
-  { label: "What does it mean to be a member?", to: "/membership" },
-  { label: "What do I do as a member?", to: "/get-involved" },
+  { label: "Welcome", href: "#welcome" },
+  { label: "Why are we here?", href: "#why" },
+  { label: "What does it mean to be a member?", href: "#membership" },
+  { label: "What do I do as a member?", href: "#get-involved" },
   {
     label: "What's the organizational structure of the DSA?",
-    to: "/structure"
+    href: "#structure"
   },
   {
     label: "I have a conflict with someone in the EB DSA. What should I do?",
-    to: "/conflict"
+    href: "#conflict"
   },
-  { label: "Directory", to: "/directory" }
+  { label: "Directory", href: "#directory" }
 ];
 
 const Index = () => (
@@ -32,13 +33,13 @@ const Index = () => (
     <TopNav links={links} />
     <Cover />
     <TOC links={links} />
-    <WelcomeSection />
-    <WhySection />
-    <MembershipSection />
-    <GetInvolvedSection />
-    <StructureSection />
-    <ConflictSection />
-    <DirectorySection />
+    <WelcomeSection anchor="welcome" />
+    <WhySection anchor="why" />
+    <MembershipSection anchor="membership" />
+    <GetInvolvedSection anchor="get-involved" />
+    <StructureSection anchor="structure" />
+    <ConflictSection anchor="conflict" />
+    <DirectorySection anchor="directory" />
   </div>
 );
 

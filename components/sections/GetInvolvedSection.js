@@ -3,11 +3,13 @@ import SideBar from "../SideBar";
 import { H2, H3, P, Strong } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
+import NavAnchor from "../NavAnchor";
 
 class GetInvolvedSection extends PureComponent {
   render() {
     return (
       <Section>
+        <NavAnchor anchor={this.props.anchor} />
         <Container>
           <H2>What do I do as a member?</H2>
           <P>
