@@ -6,7 +6,7 @@ import breakpoint from "./styles/breakpoint";
 
 const Fig = styled.figure`
   ${breakpoint.tablet`
-    float: left;
+    float: ${props => props.align};
     width: 30%;
   `};
 `;
@@ -26,11 +26,25 @@ class Figure extends PureComponent {
 
   render() {
     return (
-      <Fig>
+      <Fig align={this.props.align}>
+        {this.props.graphic ? (
+          <img src={`/images/${this.props.graphic}.svg`} alt={this.props.alt} />
+        ) : null}
         <Caption>{this.props.children}</Caption>
       </Fig>
     );
   }
 }
+
+Figure.propTypes = {
+  children: PropTypes.node,
+  graphic: PropTypes.string,
+  align: PropTypes.oneOf(["right", "left"]),
+  alt: PropTypes.string
+};
+
+Figure.defaultProps = {
+  align: "left"
+};
 
 export default Figure;

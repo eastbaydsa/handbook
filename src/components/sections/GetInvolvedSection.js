@@ -4,6 +4,8 @@ import { H2, H3, P, Strong } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
 import NavAnchor from "../NavAnchor";
+import Graphic from "../Graphic";
+import Figure from "../Figure";
 
 class GetInvolvedSection extends PureComponent {
   render() {
@@ -161,6 +163,12 @@ class GetInvolvedSection extends PureComponent {
                 statement that includes the name and purpose of the caucus, and
                 send it to the Local secretary.
               </P>
+              <Graphic
+                name="forming-a-caucus"
+                alt="People painting protest signs"
+                align="right"
+                maxWidth="400px"
+              />
             </SideBar>
             <H3>Things that need an official, democratic sign-off</H3>
             <P>
@@ -177,21 +185,29 @@ class GetInvolvedSection extends PureComponent {
               general membership (or in fast-moving and/or emergency
               circumstances, a three-quarters vote from the Local Council.)
             </P>
-            <P>
-              <Strong>SPEAKING FOR THE GROUP:</Strong> Be mindful of when you’re
-              representing the Local and when you’re speaking as an individual.
-              This isn’t a hard and fast rule, but basically, if you’re in
-              communication with another organization, a business, or the press,
-              feel free to mention you’re a member and speak your mind. There’s
-              no muzzle here. Just make it clear you’re not speaking on behalf
-              of the organization until you’re sure it’s a position approved by
-              a democratic process. The Local Council approves official chapter
-              representatives for the purposes of interacting with other
-              organizations or within a coalition space. Local Council and
-              general membership meetings vote to approve positions, events, and
-              strategies for the chapter; any work done by caucuses or ad hoc
-              members should be presented as such.
-            </P>
+            <div>
+              <Figure
+                graphic="electoral-endorsements"
+                alt="Two electoral candidates speak behind lecterns. A DSA member stands on a stool and waves a red flag."
+                align="right"
+              />
+              <P>
+                <Strong>SPEAKING FOR THE GROUP:</Strong> Be mindful of when
+                you’re representing the Local and when you’re speaking as an
+                individual. This isn’t a hard and fast rule, but basically, if
+                you’re in communication with another organization, a business,
+                or the press, feel free to mention you’re a member and speak
+                your mind. There’s no muzzle here. Just make it clear you’re not
+                speaking on behalf of the organization until you’re sure it’s a
+                position approved by a democratic process. The Local Council
+                approves official chapter representatives for the purposes of
+                interacting with other organizations or within a coalition
+                space. Local Council and general membership meetings vote to
+                approve positions, events, and strategies for the chapter; any
+                work done by caucuses or ad hoc members should be presented as
+                such.
+              </P>
+            </div>
             <P>
               <Strong>
                 STARTING A MAJOR NEW PROJECT OR FORMING AN OFFICIAL WORKING
@@ -223,6 +239,7 @@ class GetInvolvedSection extends PureComponent {
               submitted by a member of the Local Council, but that doesn’t mean
               they have to write it themselves!
             </P>
+            <Graphic name="people-marching" alt="People marching" />
           </Container>
         </Section>
       </NavAnchor>

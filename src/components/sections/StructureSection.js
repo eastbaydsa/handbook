@@ -4,6 +4,7 @@ import { H2, H3, P, Strong } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
 import NavAnchor from "../NavAnchor";
+import Figure from "../Figure";
 
 class StructureSection extends PureComponent {
   render() {
@@ -120,13 +121,20 @@ class StructureSection extends PureComponent {
                 membership as their main focus.
               </P>
             </SideBar>
-            <P>
-              <Strong>THE EXTERNAL ORGANIZING COMMITTEE (EOC):</Strong> This
-              committee is responsible for outward facing efforts, from public
-              outreach campaigns to direct action. If you want to get out into
-              the world to fight for socialism, EOC meetings are a good place to
-              start.
-            </P>
+            <div>
+              <Figure
+                graphic="single-payer"
+                alt="Patients and medical professionals raise their fists into the air"
+                align="right"
+              />
+              <P>
+                <Strong>THE EXTERNAL ORGANIZING COMMITTEE (EOC):</Strong> This
+                committee is responsible for outward facing efforts, from public
+                outreach campaigns to direct action. If you want to get out into
+                the world to fight for socialism, EOC meetings are a good place
+                to start.
+              </P>
+            </div>
           </Container>
         </Section>
       </NavAnchor>

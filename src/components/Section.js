@@ -3,8 +3,7 @@ import { red } from "./colors";
 
 const Section = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding-top: 10vh;
   padding-bottom: 10vh;

@@ -30,22 +30,27 @@ class ConflictSection extends PureComponent {
               socialism with a lot of broken stairs. If you have concerns about
               people who are active in the chapter, please let us know.
             </P>
-            <Figure>
-              You can’t build a platform for socialism with a lot of broken
-              stairs.
-            </Figure>
-            <P>
-              You can request a one-on-one meeting with a Local Council member
-              or another leader within the organization to discuss the issue.
-              The mem- ber-leader will interview you to collect more information
-              about the situation and determine how to proceed. Serious
-              complaints will be brought before the Local Council and discussed
-              confidentially in closed session. The Local Council may appoint
-              investigators to make further assessments and will maintain
-              records of all complaints brought before them. Serious complaints
-              will always be handled with complete confidentiality for all
-              involved members.
-            </P>
+            <div>
+              <Figure
+                graphic="solidarity-in-action"
+                alt="People of all sorts interlocking their arms"
+              >
+                You can’t build a platform for socialism with a lot of broken
+                stairs.
+              </Figure>
+              <P>
+                You can request a one-on-one meeting with a Local Council member
+                or another leader within the organization to discuss the issue.
+                The mem- ber-leader will interview you to collect more
+                information about the situation and determine how to proceed.
+                Serious complaints will be brought before the Local Council and
+                discussed confidentially in closed session. The Local Council
+                may appoint investigators to make further assessments and will
+                maintain records of all complaints brought before them. Serious
+                complaints will always be handled with complete confidentiality
+                for all involved members.
+              </P>
+            </div>
             <P>
               It should go without saying, but{" "}
               <Strong>

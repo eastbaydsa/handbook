@@ -5,6 +5,7 @@ import { H2, P } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
 import NavAnchor from "../NavAnchor";
+import Graphic from "../Graphic";
 
 class DirectorySection extends PureComponent {
   render() {
@@ -78,6 +79,9 @@ class DirectorySection extends PureComponent {
                   }
                 ]}
               />
+            </Directory>
+            <Graphic name="community-activism" />
+            <Directory>
               <DirectoryItem
                 text="Win friends, irritate neoliberals"
                 links={[

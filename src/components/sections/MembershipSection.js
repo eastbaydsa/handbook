@@ -5,6 +5,7 @@ import { H2, P, Strong, OL, OLI } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
 import NavAnchor from "../NavAnchor";
+import Graphic from "../Graphic";
 
 class MembershipSection extends PureComponent {
   render() {
@@ -77,19 +78,21 @@ class MembershipSection extends PureComponent {
               being willing to have a deep conversation about the things we all
               fear, and why no one has to bear it alone.
             </P>
-            <Figure>
-              By doing the quiet things, we build an organization that is
-              robust, resilient, and more prepared for the long haul.
-            </Figure>
-            <P>
-              We can express solidarity in a lot of ways. The big, public ones
-              are easy to see. The quiet ones are harder. It’s remembering
-              someone’s name and pronouns. It’s putting in a little extra effort
-              to fold chairs and stack clipboards after the big event. It’s
-              slowing yourself down during a heated argument and taking time to
-              really listen to what someone is really saying, and where they’re
-              coming from.
-            </P>
+            <div>
+              <Figure graphic="solidarity-in-action">
+                By doing the quiet things, we build an organization that is
+                robust, resilient, and more prepared for the long haul.
+              </Figure>
+              <P>
+                We can express solidarity in a lot of ways. The big, public ones
+                are easy to see. The quiet ones are harder. It’s remembering
+                someone’s name and pronouns. It’s putting in a little extra
+                effort to fold chairs and stack clipboards after the big event.
+                It’s slowing yourself down during a heated argument and taking
+                time to really listen to what someone is really saying, and
+                where they’re coming from.
+              </P>
+            </div>
             <P>
               By doing the quiet things, we build an organization that is
               robust, resilient, and more prepared for the long haul. If we
@@ -198,20 +201,28 @@ class MembershipSection extends PureComponent {
                   socialist education.
                 </OLI>
               </OL>
+              <Graphic
+                name="no-work-picnic"
+                alt="No work pinic"
+                align="center"
+                maxWidth="300px"
+              />
             </SideBar>
-            <Figure>
-              Long-haul solidarity can be gentle, but it should not be mistaken
-              for weakness.
-            </Figure>
-            <P>
-              Long-haul solidarity can be gentle, but it should not be mistaken
-              for weakness. Because we believe in the value and worth of human
-              life, we see it as our responsibility to confront domination
-              wherever it lives. We seek to overturn a system that tells us
-              we’re worth less if we’re not white, or not a “real man,” didn’t
-              go to college, or any of the countless ways we are told we are
-              smaller or less because of who we are.
-            </P>
+            <div>
+              <Figure>
+                Long-haul solidarity can be gentle, but it should not be
+                mistaken for weakness.
+              </Figure>
+              <P>
+                Long-haul solidarity can be gentle, but it should not be
+                mistaken for weakness. Because we believe in the value and worth
+                of human life, we see it as our responsibility to confront
+                domination wherever it lives. We seek to overturn a system that
+                tells us we’re worth less if we’re not white, or not a “real
+                man,” didn’t go to college, or any of the countless ways we are
+                told we are smaller or less because of who we are.
+              </P>
+            </div>
             <P>
               We also know that having been raised in these systems,{" "}
               <Strong>every last one of us will have blind spots.</Strong>{" "}
@@ -220,6 +231,12 @@ class MembershipSection extends PureComponent {
               but there’s no such thing as perfect purity. None of us is
               perfect, and none of us is immune. We commit to working on it.
             </P>
+            <Graphic
+              name="the-long-haul"
+              alt="The long haul: People erect wind turbine"
+              align="right"
+              maxWidth="500px"
+            />
           </Container>
         </Section>
       </NavAnchor>

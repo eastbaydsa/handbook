@@ -38,6 +38,7 @@ class WhySection extends PureComponent {
                 clean water from a public fountain. (That’s what we mean when we
                 talk about decommodifying something.)
               </P>
+              <Figure graphic="drink-water" align="right" />
               <P>
                 There are many other examples of profit motives creating
                 screwed-up situations, like privately owned prisons or
@@ -66,20 +67,22 @@ class WhySection extends PureComponent {
               monetary wealth is accumulated by taking advantage of other
               people’s need to survive.
             </P>
-            <Figure>
-              We organize for an economy (and a society) run democratically to
-              meet human needs, not for private profit.
-            </Figure>
-            <P>
-              We organize for an economy (and a society) run democratically to
-              meet human needs, not for private profit. In the short term, we
-              aim to win living wages for all workers; in the long term, we aim
-              to end the wage system altogether. In the short term, we endeavor
-              to put an end to police and anti-immigrant violence; in the long
-              term, we envision a world in which prisons and borders are
-              obsolete. Now and in the future, we seek to guarantee quality
-              healthcare, housing, environment, and education for all.
-            </P>
+            <div>
+              <Figure graphic="solidarity-in-action">
+                We organize for an economy (and a society) run democratically to
+                meet human needs, not for private profit.
+              </Figure>
+              <P>
+                We organize for an economy (and a society) run democratically to
+                meet human needs, not for private profit. In the short term, we
+                aim to win living wages for all workers; in the long term, we
+                aim to end the wage system altogether. In the short term, we
+                endeavor to put an end to police and anti-immigrant violence; in
+                the long term, we envision a world in which prisons and borders
+                are obsolete. Now and in the future, we seek to guarantee
+                quality healthcare, housing, environment, and education for all.
+              </P>
+            </div>
             <P>
               To get there, our strategy is to build working-class political
               power from the grassroots. We are organizing face-to-face in our
