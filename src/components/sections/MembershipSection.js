@@ -199,6 +199,10 @@ class MembershipSection extends PureComponent {
                 </OLI>
               </OL>
             </SideBar>
+            <Figure>
+              Long-haul solidarity can be gentle, but it should not be mistaken
+              for weakness.
+            </Figure>
             <P>
               Long-haul solidarity can be gentle, but it should not be mistaken
               for weakness. Because we believe in the value and worth of human
@@ -208,14 +212,6 @@ class MembershipSection extends PureComponent {
               go to college, or any of the countless ways we are told we are
               smaller or less because of who we are.
             </P>
-            <Figure>
-              Long-haul solidarity can be gentle, but it should not be mistaken
-              for weakness. Confront domination wherever it lives. We seek to
-              overturn a system that tells us we’re worth less if we’re not
-              white, or not a “real man,” didn’t go to college, or any of the
-              countless ways we are told we are smaller or less because of who
-              we are.
-            </Figure>
             <P>
               We also know that having been raised in these systems,{" "}
               <Strong>every last one of us will have blind spots.</Strong>{" "}

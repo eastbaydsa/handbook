@@ -17,7 +17,7 @@ const Title = styled.span`
   margin-top: 15px;
 `;
 const Border = styled.div`
-  border: 5px solid ${props => props.color};
+  border: 4px solid ${props => props.color};
   padding: 20px 20px 0 20px;
   margin-bottom: 30px;
 `;
