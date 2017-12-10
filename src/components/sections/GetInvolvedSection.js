@@ -6,6 +6,7 @@ import Section from "../Section";
 import NavAnchor from "../NavAnchor";
 import Graphic from "../Graphic";
 import Figure from "../Figure";
+import Link from "../Link";
 
 class GetInvolvedSection extends PureComponent {
   render() {
@@ -19,10 +20,10 @@ class GetInvolvedSection extends PureComponent {
               up to meetings, then take on work.” We have a variety of meetings
               every month: Each of them should include opportunities for members
               to dig into ongoing projects, (And if they don’t, feel free to
-              email
-              <a href="mailto:newmember@eastbaydsa.org">
+              email{" "}
+              <Link href="mailto:newmember@eastbaydsa.org">
                 newmember@eastbaydsa.org
-              </a>{" "}
+              </Link>{" "}
               with feedback or questions.) If you’re not sure how or where to
               get involved, you’ll find suggestions in this section, and you can
               also check out the directories at the end of this document.
@@ -106,10 +107,12 @@ class GetInvolvedSection extends PureComponent {
             </ul>
             <P>
               If you’re ever not sure or have questions, email{" "}
-              <a href="mailto:newmember@eastbaydsa.org">
+              <Link href="mailto:newmember@eastbaydsa.org">
                 newmember@eastbaydsa.org
-              </a>. You can also check{" "}
-              <a href="http://eastbaydsa.org/events">eastbaydsa.org/events</a>{" "}
+              </Link>. You can also check{" "}
+              <Link href="http://eastbaydsa.org/events">
+                eastbaydsa.org/events
+              </Link>{" "}
               for a continually refreshed set of things to show up to.
             </P>
 

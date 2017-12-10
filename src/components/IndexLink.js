@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Link from "./Link";
+import UnstyledLink from "./UnstyledLink";
 
 import { red } from "./colors";
 
@@ -26,12 +26,12 @@ const Wrapper = styled.div`
 
 function IndexLink(props) {
   return (
-    <Link to={props.to} onClick={props.onClick}>
+    <UnstyledLink to={props.to} onClick={props.onClick}>
       <Wrapper>
         <Number>{props.number}</Number>
         <span>{props.label}</span>
       </Wrapper>
-    </Link>
+    </UnstyledLink>
   );
 }
 

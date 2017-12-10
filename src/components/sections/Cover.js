@@ -1,10 +1,10 @@
 import React, { PureComponent } from "react";
 import styled from "styled-components";
+import UnstyledLink from "../UnstyledLink";
 import { red } from "../colors";
-import Link from "../Link";
 import NavAnchor from "../NavAnchor";
 
-const Wrapper = styled(Link)`
+const Wrapper = styled(UnstyledLink)`
   display: flex;
   justify-content: center;
   align-items: center;

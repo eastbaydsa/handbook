@@ -5,6 +5,7 @@ import Container from "../Container";
 import Section from "../Section";
 import NavAnchor from "../NavAnchor";
 import Figure from "../Figure";
+import Link from "../Link";
 
 class StructureSection extends PureComponent {
   render() {
@@ -36,9 +37,9 @@ class StructureSection extends PureComponent {
             <P>
               The following is a breezy paraphrase of the official bylaws for
               East Bay DSA, which can be found in full at{" "}
-              <a href="http://eastbaydsa.org/resources-bylaws">
+              <Link href="http://eastbaydsa.org/resources-bylaws">
                 eastbaydsa.org/resources-bylaws
-              </a>.
+              </Link>.
             </P>
             <P>
               The primary bodies to keep track of are the{" "}

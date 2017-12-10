@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-// import { topNavLayer } from "../styles/layers";
 
 import Index from "../Index";
 import TopNavBar from "./TopNavBar";
-// import CurrentLocation from "./CurrentLocation";
 
 const Nav = styled.nav`
   position: fixed;
@@ -16,7 +14,7 @@ const Nav = styled.nav`
   display: flex;
   flex-direction: column;
   margin-top: -1px;
-  // zIndex: topNavLayer;
+  z-index: 5;
 `;
 
 const Menu = styled.div`
