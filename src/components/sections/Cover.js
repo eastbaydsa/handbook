@@ -1,22 +1,35 @@
 import React, { PureComponent } from "react";
 import styled from "styled-components";
-import Section from "../Section";
+import { red } from "../colors";
+import Link from "../Link";
+import NavAnchor from "../NavAnchor";
 
-const Wrapper = styled.div`
+const Wrapper = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
+  min-height: 90vh;
+  background-image: url(/images/cover@2x.png);
+  background-size: cover;
+  background-position: right bottom;
+`;
+
+const Title = styled.h1`
+  color: ${red};
+  font-weight: 700;
+  font-size: 16vmin;
+  text-transform: uppercase;
+  text-align: center;
 `;
 
 class Cover extends PureComponent {
   render() {
     return (
-      <Section>
-        <Wrapper>
-          <h1>EBDSA New Member Handbook</h1>
+      <NavAnchor anchor={this.props.anchor}>
+        <Wrapper to="/toc">
+          <Title>East Bay DSA New Member Handbook</Title>
         </Wrapper>
-      </Section>
+      </NavAnchor>
     );
   }
 }

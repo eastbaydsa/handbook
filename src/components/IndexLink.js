@@ -7,7 +7,7 @@ import { red } from "./colors";
 const Number = styled.span`
   font-weight: 700;
   color: ${red};
-  margin-right: 24px;
+  margin: 0 24px;
 `;
 
 const Wrapper = styled.div`

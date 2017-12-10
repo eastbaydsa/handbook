@@ -1,18 +1,46 @@
+@font-face {
+  font-family: "ManifoldDSA";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/ManifoldDSA-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ManifoldDSA";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/ManifoldDSA-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ManifoldDSA";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/ManifoldDSA-ExtraBold.otf") format("opentype");
+}
+
+html {
+  /* font-size: 6.25%; */
+  font-size: 8%;
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 12%;
+  }
+}
+
 body {
-  font-family: sans-serif;
-  font-weight: 300;
+  font-family: ManifoldDSA, sans-serif;
+  font-weight: 400;
+  font-size: 13rem;
   color: black;
-  font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
   margin: 0;
-  line-height: 1.58;
-}
-
-@media screen and (min-width: 600px) {
-  font-size: 21px;
+  line-height: 1.2;
 }
 
 p {

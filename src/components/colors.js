@@ -1,4 +1,4 @@
-const red = "#eb2228";
-const purple = "#3b2561";
+const red = "#ea2127";
+const purple = "#3b2462";
 
 export { red, purple };

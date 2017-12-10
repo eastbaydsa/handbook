@@ -22,7 +22,7 @@ const links = [
     to: "/structure"
   },
   {
-    label: "I have a conflict with someone in the EB DSA. What should I do?",
+    label: "I have a conflict with someone. What should I do?",
     to: "/conflict"
   },
   { label: "Directory", to: "/directory" }
@@ -31,8 +31,8 @@ const links = [
 const Content = () => (
   <div>
     <TopNav links={links} />
-    <Cover />
-    <TOC links={links} />
+    <Cover anchor="" />
+    <TOC anchor="toc" links={links} />
     <WelcomeSection anchor="welcome" />
     <WhySection anchor="why" />
     <MembershipSection anchor="membership" />

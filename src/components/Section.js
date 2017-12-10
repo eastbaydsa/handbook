@@ -5,8 +5,10 @@ const Section = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   padding-top: 10vh;
   padding-bottom: 10vh;
+  min-height: 60vh;
   border-bottom: 40px solid ${red};
 `;
 

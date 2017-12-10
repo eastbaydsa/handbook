@@ -7,33 +7,35 @@ const TitleWrapper = styled.span`
   margin: 0;
 `;
 const Title = styled.span`
-  display: inline-block;
+  display: block;
   background-color: ${props => props.color};
   color: white;
   padding: 10px 15px 5px 15px;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
+  margin-top: 15px;
 `;
 const Border = styled.div`
   border: 5px solid ${props => props.color};
-  padding: 10px;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 30px;
 `;
 
 class SideBarSection extends PureComponent {
   static propTypes = {
     children: PropTypes.node,
-    title: PropTypes.string
+    title: PropTypes.string,
+    theme: PropTypes.oneOf(Object.keys(colors))
   };
 
   render() {
-    const color = colors[this.props.style];
     return (
       <div>
         <TitleWrapper>
-          <Title color={this.props.style}>{this.props.title}</Title>
+          <Title color={this.props.theme}>{this.props.title}</Title>
         </TitleWrapper>
-        <Border color={this.props.style}>{this.props.children}</Border>
+        <Border color={this.props.theme}>{this.props.children}</Border>
       </div>
     );
   }

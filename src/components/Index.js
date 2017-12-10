@@ -19,16 +19,14 @@ function Index(props) {
   return (
     <Wrapper>
       <Title>{props.title}</Title>
-      {props.links.map((link, i) => {
-        return (
-          <IndexLink
-            number={i + 1}
-            onClick={props.onAnyLinkClicked}
-            key={link.to}
-            {...link}
-          />
-        );
-      })}
+      {props.links.map((link, i) => (
+        <IndexLink
+          number={i + 1}
+          onClick={props.onAnyLinkClicked}
+          key={link.to}
+          {...link}
+        />
+      ))}
     </Wrapper>
   );
 }
