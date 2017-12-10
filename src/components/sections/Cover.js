@@ -3,15 +3,20 @@ import styled from "styled-components";
 import UnstyledLink from "../UnstyledLink";
 import { red } from "../colors";
 import NavAnchor from "../NavAnchor";
+import breakpoint from "../styles/breakpoint";
 
 const Wrapper = styled(UnstyledLink)`
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 90vh;
-  background-image: url(/images/cover@2x.png);
+  background-image: url(/images/cover.png);
   background-size: cover;
   background-position: right bottom;
+
+  ${breakpoint.desktop`
+    background-image: url(/images/cover@2x.png);
+  `};
 `;
 
 const Title = styled.h1`
