@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import styled from "styled-components";
 import UnstyledLink from "../UnstyledLink";
-import { red } from "../colors";
+import { red, purple } from "../colors";
 import NavAnchor from "../NavAnchor";
 import breakpoint from "../styles/breakpoint";
 
@@ -13,6 +13,7 @@ const Wrapper = styled(UnstyledLink)`
   background-image: url(/images/cover.png);
   background-size: cover;
   background-position: right bottom;
+  border-bottom: 40px solid ${purple};
 
   ${breakpoint.desktop`
     background-image: url(/images/cover@2x.png);

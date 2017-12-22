@@ -1,10 +1,18 @@
 import React, { PureComponent } from "react";
+import styled from "styled-components";
+import breakpoint from "../styles/breakpoint";
 import SideBar from "../SideBar";
 import Figure from "../Figure";
 import { H2, P, Strong } from "../typography";
 import Container from "../Container";
 import Section from "../Section";
 import NavAnchor from "../NavAnchor";
+
+const FlexOnTablet = styled.div`
+  ${breakpoint.tablet`
+    display: flex;
+  `};
+`;
 
 class WhySection extends PureComponent {
   render() {
@@ -67,7 +75,7 @@ class WhySection extends PureComponent {
               monetary wealth is accumulated by taking advantage of other
               people’s need to survive.
             </P>
-            <div>
+            <FlexOnTablet>
               <Figure graphic="solidarity-in-action">
                 We organize for an economy (and a society) run democratically to
                 meet human needs, not for private profit.
@@ -82,7 +90,7 @@ class WhySection extends PureComponent {
                 are obsolete. Now and in the future, we seek to guarantee
                 quality healthcare, housing, environment, and education for all.
               </P>
-            </div>
+            </FlexOnTablet>
             <P>
               To get there, our strategy is to build working-class political
               power from the grassroots. We are organizing face-to-face in our

@@ -70,7 +70,7 @@ class TopNav extends Component {
     return (
       <Menu>
         <Index
-          title="Your election packet"
+          title="New Member Handbook"
           links={this.props.links}
           onAnyLinkClicked={this.closeMenu}
         />{" "}
@@ -87,10 +87,6 @@ class TopNav extends Component {
           toggleMenu={this.toggleMenu}
         />{" "}
         {this.state.isOpen ? this.renderMenu() : null}{" "}
-        {/* <CurrentLocation
-                                  links={this.props.links}
-                                  currentSection={this.props.currentSection}
-                                /> */}{" "}
       </Nav>
     );
   }

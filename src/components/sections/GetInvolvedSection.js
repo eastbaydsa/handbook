@@ -44,7 +44,7 @@ class GetInvolvedSection extends PureComponent {
               organized, and communicative about your limits and your
               availability.
             </P>
-            <SideBar title="Showing up builds trust" theme="red">
+            <SideBar title="Showing up builds trust" theme="purple">
               <P>
                 There is a spectre haunting NorCal: the spectre of flakiness.
                 People say “We should meet up!” and never follow through.
@@ -145,7 +145,7 @@ class GetInvolvedSection extends PureComponent {
               <Strong>caucus</Strong>.
             </P>
 
-            <SideBar title="Forming a caucus" theme="red">
+            <SideBar title="Forming a caucus" theme="purple">
               <P>
                 Caucuses are independent formations of members within the Local.
                 They’re a big part of internal democracy. If you think we need

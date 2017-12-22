@@ -16,11 +16,11 @@ const links = [
   { label: "Welcome", to: "/welcome" },
   { label: "Why are we here?", to: "/why" },
   { label: "What does it mean to be a member?", to: "/membership" },
-  { label: "What do I do as a member?", to: "/get-involved" },
   {
     label: "What's the organizational structure of the DSA?",
     to: "/structure"
   },
+  { label: "What do I do as a member?", to: "/get-involved" },
   {
     label: "I have a conflict with someone. What should I do?",
     to: "/conflict"
@@ -36,8 +36,8 @@ const Content = () => (
     <WelcomeSection anchor="welcome" />
     <WhySection anchor="why" />
     <MembershipSection anchor="membership" />
-    <GetInvolvedSection anchor="get-involved" />
     <StructureSection anchor="structure" />
+    <GetInvolvedSection anchor="get-involved" />
     <ConflictSection anchor="conflict" />
     <DirectorySection anchor="directory" />
   </div>

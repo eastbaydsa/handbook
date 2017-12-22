@@ -69,7 +69,7 @@ class StructureSection extends PureComponent {
               and writing this handbook. Internal Organizers are good people to
               talk to if you’re feeling lost.
             </P>
-            <SideBar title="Who is the local council?" theme="red">
+            <SideBar title="Who is the local council?" theme="purple">
               <P>
                 The Council consists of 13 elected (voting) members, for good
                 luck. These are:

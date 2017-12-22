@@ -27,7 +27,8 @@ class MembershipSection extends PureComponent {
               Facebook for another hour. We’re here because the old world is
               dying and the new world struggles to be born.{" "}
               <Strong>
-                We’re here because the only other options are denial or despair.
+                We’re here because the only other options are denial and
+                despair.
               </Strong>
             </P>
             <P>
@@ -89,8 +90,8 @@ class MembershipSection extends PureComponent {
                 someone’s name and pronouns. It’s putting in a little extra
                 effort to fold chairs and stack clipboards after the big event.
                 It’s slowing yourself down during a heated argument and taking
-                time to really listen to what someone is really saying, and
-                where they’re coming from.
+                time to listen to what someone is really saying, and where
+                they’re coming from.
               </P>
             </div>
             <P>
@@ -110,12 +111,12 @@ class MembershipSection extends PureComponent {
               </Strong>{" "}
               Caring about anything in this historical moment means facing up to
               crisis after crisis, from natural disasters to ICE raids to
-              organized harassment. We can’t react well if we’re operating with
-              a baseline of “anxious, lonely wrecks.” Reach out to people and
-              aim for genuine human connection. When it comes to building trust
-              and sustained dialogue, in-person meetings are better than phone
-              calls, and phone calls are better than texting. Most forms are
-              better than social media.
+              organized harassment. We can’t react well if we’re all anxious,
+              lonely wrecks. Reach out to people and aim for genuine human
+              connection. When it comes to building trust and sustained
+              dialogue, in-person meetings are better than phone calls, and
+              phone calls are better than texting. Most forms are better than
+              social media.
             </P>
             <SideBar title="Keeping it comradely" theme="purple">
               <P>
@@ -139,11 +140,11 @@ class MembershipSection extends PureComponent {
                   <Strong>Assume good faith in your fellow comrades.</Strong>{" "}
                   Suspicion of bad faith often breeds defensive bad faith. If
                   you think someone said something upsetting, start by asking
-                  clarify- ing questions before leaping to conclusions. If
-                  you’re being chal- lenged on something, try to be open to it
-                  as a valid critique first. If you disagree with a tactic or
-                  project someone proposes, remember that they are motivated by
-                  wanting to build a socialist world just like you.
+                  clarifying questions before leaping to conclusions. If you’re
+                  being challenged on something, try to be open to it as a valid
+                  critique first. If you disagree with a tactic or project
+                  someone proposes, remember that they are motivated by wanting
+                  to build a socialist world just like you.
                 </OLI>
                 <OLI>
                   <Strong>
@@ -153,12 +154,12 @@ class MembershipSection extends PureComponent {
                   “two kinds of people” or other sets of opposites that
                   fundamentally boil down to “good/bad.” (This is referred to as
                   binary thinking.) Unfortunately, this also makes it easy to
-                  separate into artificial forms of “us” and a “them,” and
-                  harder to stay in solidarity.
+                  separate into artificial forms of “us” and “them,” and harder
+                  to stay in solidarity.
                 </OLI>
                 <OLI>
                   <Strong>
-                    KNOW WHETHER YOU NEED TO “STEP UP” OR “LISTEN UP.”
+                    Know whether you need to “step up” or “listen up.”
                   </Strong>{" "}
                   If you’re someone who naturally tends towards taking up space
                   (by speaking or arguing a lot), be mindful of it and keep an
@@ -167,7 +168,7 @@ class MembershipSection extends PureComponent {
                   speak up.
                 </OLI>
                 <OLI>
-                  <Strong>BRING PEOPLE INTO THE CONVERSATION.</Strong> Building
+                  <Strong>bring people into the conversation.</Strong> Building
                   power means everyone feels welcome to speak. As you take part
                   in conversations, try to notice if people are disengaging or
                   shutting down and give them on-ramps back in. If they said
@@ -175,7 +176,7 @@ class MembershipSection extends PureComponent {
                 </OLI>
                 <OLI>
                   <Strong>
-                    LISTEN FULLY WITH A WILLINGNESS TO HAVE YOUR MIND CHANGED.
+                    Listen fully with a willingness to have your mind changed.
                   </Strong>
                   “Winning” as an individual is counterproductive if the
                   discussion goes nowhere. When others are speaking, attend to
@@ -185,8 +186,8 @@ class MembershipSection extends PureComponent {
                 </OLI>
                 <OLI>
                   <Strong>
-                    RECOGNIZE AND RESPECT OTHERS’ FEELINGS, BACKGROUNDS, AND
-                    CULTURAL DIFFERENCES.
+                    Recognize and respect others’ feelings, backgrounds, and
+                    cultural differences.
                   </Strong>{" "}
                   Everyone has a piece of the truth, and you can learn something
                   from everyone. Respect where people are coming from. This is
@@ -195,7 +196,7 @@ class MembershipSection extends PureComponent {
                   communities here.
                 </OLI>
                 <OLI>
-                  <Strong>KEEP THE CONVERSATION ACCESSIBLE.</Strong> Try to
+                  <Strong>Keep the conversation accessible.</Strong> Try to
                   clarify terms when jargon or acronyms get thrown around, and
                   remember that everything we do can be an opportunity for
                   socialist education.
