@@ -43,9 +43,9 @@ class StructureSection extends PureComponent {
             </P>
             <P>
               The primary bodies to keep track of are the{" "}
-              <Strong>General Membership</Strong>, the
+              <Strong>General Membership</Strong>, the{" "}
               <Strong>Local Council</Strong> (LC), the{" "}
-              <Strong>Internal Organizing Committee</Strong> (IOC), and the
+              <Strong>Internal Organizing Committee</Strong> (IOC), and the{" "}
               <Strong>External Organizing Committee</Strong> (EOC).
             </P>
             <P>
@@ -56,19 +56,30 @@ class StructureSection extends PureComponent {
               the membership can also trigger action.
             </P>
             <P>
-              <Strong>The Local Council</Strong> (LC): This is the elected
+              <Strong>THE LOCAL COUNCIL</Strong> (LC): This is the elected
               leadership and the second-highest body after the general
               membership. It manages the chapter’s day-to-day affairs, provides
               oversight, and resolves conflicts. It consists of thirteen elected
               members who serve roughly one-year terms.
             </P>
             <P>
-              THE INTERNAL ORGANIZING COMMITTEE (IOC): This committee is
-              responsible for the internal health of the organization. That
-              includes new member orientation, political education, fundraising,
-              and writing this handbook. Internal Organizers are good people to
-              talk to if you’re feeling lost.
+              <Strong>THE INTERNAL ORGANIZING COMMITTEE</Strong> (IOC): This
+              committee is responsible for fostering a lively, participatory
+              democratic culture in our organization. That includes new member
+              onboarding, political education, social events, and more.
             </P>
+            <div>
+              <Figure
+                graphic="single-payer"
+                alt="Patients and medical professionals raise their fists into the air"
+                align="right"
+              />
+              <P>
+                <Strong>THE EXTERNAL ORGANIZING COMMITTEE</Strong> (EOC): This
+                committee is responsible for outward facing efforts, from public
+                outreach campaigns to direct action.
+              </P>
+            </div>
             <SideBar title="Who is the local council?" theme="purple">
               <P>
                 The Council consists of 13 elected (voting) members, for good
@@ -84,7 +95,7 @@ class StructureSection extends PureComponent {
               <P>
                 <Strong>One Vice-Chair:</Strong> The vice-chair assists the
                 co-chairs with their duties and fills in if either of the
-                co-chairs aren’t able to fulfil their duties.
+                co-chairs aren’t able to fulfill their duties.
               </P>
               <P>
                 <Strong>One Secretary:</Strong> The secretary takes notes and
@@ -94,10 +105,9 @@ class StructureSection extends PureComponent {
               </P>
               <P>
                 <Strong>One Treasurer:</Strong> The treasurer is responsible for
-                dealing with all that dirty, dirty money: fundraising,
-                budgeting, expenditures, and keeping the financial ship in
-                order. They keep transparent and open finances, periodically
-                reported out.
+                dealing with fundraising, budgeting, expenditures, and keeping
+                the financial ship in order. They keep transparent and open
+                finances, periodically reported out.
               </P>
               <P>
                 <Strong>Three Elected Internal Organizers:</Strong> Internal
@@ -122,20 +132,6 @@ class StructureSection extends PureComponent {
                 membership as their main focus.
               </P>
             </SideBar>
-            <div>
-              <Figure
-                graphic="single-payer"
-                alt="Patients and medical professionals raise their fists into the air"
-                align="right"
-              />
-              <P>
-                <Strong>THE EXTERNAL ORGANIZING COMMITTEE (EOC):</Strong> This
-                committee is responsible for outward facing efforts, from public
-                outreach campaigns to direct action. If you want to get out into
-                the world to fight for socialism, EOC meetings are a good place
-                to start.
-              </P>
-            </div>
           </Container>
         </Section>
       </NavAnchor>

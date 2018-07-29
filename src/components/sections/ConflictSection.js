@@ -40,24 +40,29 @@ class ConflictSection extends PureComponent {
               </Figure>
               <P>
                 You can request a one-on-one meeting with a Local Council member
-                or another leader within the organization to discuss the issue.
-                The mem- ber-leader will interview you to collect more
-                information about the situation and determine how to proceed.
-                Serious complaints will be brought before the Local Council and
+                or an appointed organizer to discuss the issue. The
+                member-leader will interview you to collect more information
+                about the situation and determine how to proceed. Serious
+                complaints will be brought before the Local Council and
                 discussed confidentially in closed session. The Local Council
                 may appoint investigators to make further assessments and will
-                maintain records of all complaints brought before them. Serious
-                complaints will always be handled with complete confidentiality
-                for all involved members.
+                maintain records of all complaints brought before them.
+                According to our bylaws, the Local Council may vote to
+                discipline (suspend or expel) members that are found to be in
+                substantial disagreement with the principles or policies of the
+                organization or if they consistently engage in undemocratic,
+                disruptive behavior.Serious complaints will always be handled
+                with complete confidentiality for all involved members.
               </P>
             </div>
             <P>
               It should go without saying, but{" "}
               <Strong>
                 being a member also means being willing to stand accountable for
-                what you do and say
-              </Strong>. When you are able to listen and hear honestly, you
-              honor their courage in breaking silence.
+                what you do and say.
+              </Strong>{" "}
+              When you are able to listen and hear honestly, you honor their
+              courage in breaking silence.
             </P>
           </Container>
         </Section>

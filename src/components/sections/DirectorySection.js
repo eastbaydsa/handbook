@@ -22,7 +22,7 @@ class DirectorySection extends PureComponent {
               Bear in mind, though, that like everything else, our departments
               are all-volunteer. Depending on communications backlog and the
               number of people we have on a given address, turnaround could be
-              anywhere from a few minutes to a couple days.
+              anywhere from a few minutes to a week.
             </P>
             <Directory>
               <DirectoryItem

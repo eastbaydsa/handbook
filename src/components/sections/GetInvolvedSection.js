@@ -19,7 +19,7 @@ class GetInvolvedSection extends PureComponent {
               The way our active members become active members is usually, “show
               up to meetings, then take on work.” We have a variety of meetings
               every month: Each of them should include opportunities for members
-              to dig into ongoing projects, (And if they don’t, feel free to
+              to dig into ongoing projects. (And if they don’t, feel free to
               email{" "}
               <Link href="mailto:newmember@eastbaydsa.org">
                 newmember@eastbaydsa.org
@@ -234,13 +234,13 @@ class GetInvolvedSection extends PureComponent {
               talk to an organizer about your ideas and work together to develop
               a proposal for the membership or Local Council to vote on. If
               there’s a specific organizational need that falls outside the
-              EOC/IOC frameworks (in the same way that Finance or the secretary
-              are necessarily council-level and independent), the Local Council
-              can authorize the creation of an official working group by
-              appointing two co-chairs, who will sit as nonvoting members on the
-              Local Council. All proposals for the Local Council must be
-              submitted by a member of the Local Council, but that doesn’t mean
-              they have to write it themselves!
+              EOC/IOC frameworks (in the same way that the treasurer and the
+              secretary are necessarily council-level and independent), the
+              Local Council can authorize the creation of an official working
+              group by appointing two co-chairs, who will sit as nonvoting
+              members on the Local Council. All proposals for the Local Council
+              must be submitted by a member of the Local Council, but that
+              doesn’t mean they have to write it themselves!
             </P>
             <Graphic name="people-marching" alt="People marching" />
           </Container>
