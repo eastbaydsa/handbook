@@ -1,12 +1,12 @@
 import React, { PureComponent } from "react";
-import SideBar from "../SideBar";
-import { H2, H3, P, Strong } from "../typography";
-import Container from "../Container";
-import Section from "../Section";
-import NavAnchor from "../NavAnchor";
-import Graphic from "../Graphic";
-import Figure from "../Figure";
-import Link from "../Link";
+import SideBar from "../components/SideBar";
+import { H2, H3, P, Strong } from "../components/typography";
+import Container from "../components/Container";
+import Section from "../components/Section";
+import NavAnchor from "../components/NavAnchor";
+import Graphic from "../components/Graphic";
+import Figure from "../components/Figure";
+import Link from "../components/Link";
 
 class GetInvolvedSection extends PureComponent {
   render() {

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import Section from "../Section";
-import Container from "../Container";
-import Index from "../Index";
-import NavAnchor from "../NavAnchor";
-import { H2 } from "../typography";
+import Section from "../components/Section";
+import Container from "../components/Container";
+import Index from "../components/Index";
+import NavAnchor from "../components/NavAnchor";
+import { H2 } from "../components/typography";
 
 const Spacer = styled.div`
   flex: 1 1 auto;

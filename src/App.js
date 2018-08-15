@@ -1,16 +1,16 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
-import TopNav from "./components/sections/TopNav";
-import TOC from "./components/sections/TOC";
-import Cover from "./components/sections/Cover";
-import WelcomeSection from "./components/sections/WelcomeSection";
-import WhySection from "./components/sections/WhySection";
-import MembershipSection from "./components/sections/MembershipSection";
-import GetInvolvedSection from "./components/sections/GetInvolvedSection";
-import StructureSection from "./components/sections/StructureSection";
-import ConflictSection from "./components/sections/ConflictSection";
-import DirectorySection from "./components/sections/DirectorySection";
+import TopNav from "./sections/TopNav";
+import TOC from "./sections/TOC";
+import Cover from "./sections/Cover";
+import WelcomeSection from "./sections/WelcomeSection";
+import WhySection from "./sections/WhySection";
+import MembershipSection from "./sections/MembershipSection";
+import GetInvolvedSection from "./sections/GetInvolvedSection";
+import StructureSection from "./sections/StructureSection";
+import ConflictSection from "./sections/ConflictSection";
+import DirectorySection from "./sections/DirectorySection";
 
 const links = [
   { label: "Welcome", to: "/welcome" },

@@ -1,11 +1,11 @@
 import React, { PureComponent } from "react";
-import Figure from "../Figure";
-import SideBar from "../SideBar";
-import { H2, P, Strong, OL, OLI } from "../typography";
-import Container from "../Container";
-import Section from "../Section";
-import NavAnchor from "../NavAnchor";
-import Graphic from "../Graphic";
+import Figure from "../components/Figure";
+import SideBar from "../components/SideBar";
+import { H2, P, Strong, OL, OLI } from "../components/typography";
+import Container from "../components/Container";
+import Section from "../components/Section";
+import NavAnchor from "../components/NavAnchor";
+import Graphic from "../components/Graphic";
 
 class MembershipSection extends PureComponent {
   render() {

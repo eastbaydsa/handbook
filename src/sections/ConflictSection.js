@@ -1,9 +1,9 @@
 import React, { PureComponent } from "react";
-import Figure from "../Figure";
-import { H2, P, Strong } from "../typography";
-import Container from "../Container";
-import Section from "../Section";
-import NavAnchor from "../NavAnchor";
+import Figure from "../components/Figure";
+import { H2, P, Strong } from "../components/typography";
+import Container from "../components/Container";
+import Section from "../components/Section";
+import NavAnchor from "../components/NavAnchor";
 
 class ConflictSection extends PureComponent {
   render() {

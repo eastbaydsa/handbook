@@ -1,9 +1,9 @@
 import React, { PureComponent } from "react";
 import styled from "styled-components";
-import UnstyledLink from "../UnstyledLink";
-import { red, purple } from "../colors";
-import NavAnchor from "../NavAnchor";
-import breakpoint from "../styles/breakpoint";
+import UnstyledLink from "../components/UnstyledLink";
+import { red, purple } from "../components/colors";
+import NavAnchor from "../components/NavAnchor";
+import breakpoint from "../components/styles/breakpoint";
 
 const Wrapper = styled(UnstyledLink)`
   display: flex;

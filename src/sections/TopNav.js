@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-import Index from "../Index";
+import Index from "../components/Index";
 import TopNavBar from "./TopNavBar";
 
 const Nav = styled.nav`

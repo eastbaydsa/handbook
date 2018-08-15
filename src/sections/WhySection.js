@@ -1,12 +1,12 @@
 import React, { PureComponent } from "react";
 import styled from "styled-components";
-import breakpoint from "../styles/breakpoint";
-import SideBar from "../SideBar";
-import Figure from "../Figure";
-import { H2, P, Strong } from "../typography";
-import Container from "../Container";
-import Section from "../Section";
-import NavAnchor from "../NavAnchor";
+import breakpoint from "../components/styles/breakpoint";
+import SideBar from "../components/SideBar";
+import Figure from "../components/Figure";
+import { H2, P, Strong } from "../components/typography";
+import Container from "../components/Container";
+import Section from "../components/Section";
+import NavAnchor from "../components/NavAnchor";
 
 const FlexOnTablet = styled.div`
   ${breakpoint.tablet`

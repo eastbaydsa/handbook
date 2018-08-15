@@ -1,8 +1,8 @@
 import React, { PureComponent } from "react";
-import Container from "../Container";
-import Section from "../Section";
-import { H2, P, Strong } from "../typography";
-import NavAnchor from "../NavAnchor";
+import Container from "../components/Container";
+import Section from "../components/Section";
+import { H2, P, Strong } from "../components/typography";
+import NavAnchor from "../components/NavAnchor";
 
 class WelcomeSection extends PureComponent {
   render() {

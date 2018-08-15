@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { headerHeight } from "../styles/layout";
-
-// import { tabletPortraitBreakpoint } from "../styles/breakpoints";
+import { headerHeight } from "../components/styles/layout";
 
 const Wrapper = styled.div`
   display: flex;
