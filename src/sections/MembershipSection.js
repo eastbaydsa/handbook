@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import Figure from "../components/Figure";
 import SideBar from "../components/SideBar";
-import { H2, P, Strong, OL, OLI } from "../components/typography";
+import { H2, H3, P, Strong, OL, OLI } from "../components/typography";
 import Container from "../components/Container";
 import Section from "../components/Section";
 import NavAnchor from "../components/NavAnchor";
@@ -48,14 +48,17 @@ class MembershipSection extends PureComponent {
             </P>
             <P>
               As Democratic Socialists, we aim to build a mass movement.{" "}
-              <Strong>For real, though. Massive.</Strong> That means knocking on
-              doors and talking to people who come from very different social
-              contexts. Anyone who wants to build a socialist future is welcome
-              in DSA. If we’re going to get this right, it’s going to take
-              kindness, unselfish curiosity, and a LOT of meetings. (Don’t worry
-              if you can’t attend all the meetings—part of what we’re building
-              is also a capacity for people to show up, contribute, and have a
-              democratic say by whatever means are available for them.)
+              <Strong>
+                And when we say 'mass movement,' we mean truly massive.
+              </Strong>{" "}
+              That means knocking on doors and talking to people who come from
+              very different social contexts. Anyone who wants to build a
+              socialist future is welcome in DSA. If we’re going to get this
+              right, it’s going to take kindness, unselfish curiosity, and a LOT
+              of meetings. (Don’t worry if you can’t attend all the
+              meetings—part of what we’re building is also a capacity for people
+              to show up, contribute, and have a democratic say by whatever
+              means are available for them.)
             </P>
             <P>
               As part of that, we strive for two things:{" "}
@@ -168,7 +171,7 @@ class MembershipSection extends PureComponent {
                   speak up.
                 </OLI>
                 <OLI>
-                  <Strong>bring people into the conversation.</Strong> Building
+                  <Strong>Bring people into the conversation.</Strong> Building
                   power means everyone feels welcome to speak. As you take part
                   in conversations, try to notice if people are disengaging or
                   shutting down and give them on-ramps back in. If they said
@@ -229,8 +232,29 @@ class MembershipSection extends PureComponent {
               <Strong>every last one of us will have blind spots.</Strong>{" "}
               Everyone is a work in progress, and mass organizations are
               necessarily full of contradictions. Moral clarity is important,
-              but there’s no such thing as perfect purity. None of us is
-              perfect, and none of us is immune. We commit to working on it.
+              but there’s no such thing as perfect purity. None of us are
+              perfect, and all of us make mistakes. We’re all working on
+              becoming better than we are now.
+            </P>
+            <H3>Abuse and Predatory Behavior</H3>
+            <P>
+              Socialism is based on mutual respect for all and the enhancement
+              of human dignity. That said, even with the best of intentions,
+              conflicts arise. If you have a conflict with an East Bay DSA
+              comrade that you can’t resolve on your own, please let someone in
+              leadership know. There are policies in place for grievances and
+              harassment, and we’re building out structures for accountability
+              with an eventual eye towards fully formed restorative justice
+              practices.
+            </P>
+            <P>
+              We are categorically against abuse and, predatory behavior, and
+              otherwise shitty actions. According to our bylaws, the Steering
+              Committee may vote to discipline (suspend or expel) members whose
+              actions are found to be out of integrity with our code of conduct.
+              The chapter takes Serious complaints seriously, and will always
+              handle them be handled with complete confidentiality for all
+              involved members.
             </P>
             <Graphic
               name="the-long-haul"

@@ -25,8 +25,11 @@ class GetInvolvedSection extends PureComponent {
                 newmember@eastbaydsa.org
               </Link>{" "}
               with feedback or questions.) If you’re not sure how or where to
-              get involved, you’ll find suggestions in this section, and you can
-              also check out the directories at the end of this document.
+              get involved, we have a couple examples in this section, but the
+              website and our Facebook page are our most frequently updated
+              sources of things-to-do. For specific questions, the directories
+              at the end of this document should help you figure out who to
+              contact.
             </P>
             <P>
               We think of all DSA members as socialist organizers (that’s what
@@ -80,10 +83,7 @@ class GetInvolvedSection extends PureComponent {
             <P>That said, here are some easy ways in!</P>
             <ul>
               <li>Phonebanking the membership for a big meeting</li>
-              <li>
-                Running an information/merch table at First Fridays (or Father
-                John Misty concerts)
-              </li>
+              <li>Running an information/merch table at First Fridays</li>
               <li>
                 Having in-depth conversations with strangers as part of a
                 neighborhood canvass
@@ -122,9 +122,7 @@ class GetInvolvedSection extends PureComponent {
               rock climbing, book clubs, or park clean-ups,{" "}
               <Strong>just start doing it</Strong>. Our movement gets stronger
               when we have a strong body of activities that stitch us together
-              alongside the work. (Internal Organizers might still be able to
-              point you out to people with similar interests, but you don’t need
-              anyone’s permission.)
+              alongside the work.
             </P>
             <P>
               If you have an idea for <Strong>something more official</Strong>,
@@ -134,7 +132,10 @@ class GetInvolvedSection extends PureComponent {
               Find the committee (or caucus) doing the organizing closest to
               your idea, get involved with their ongoing work, and once you have
               the lay of the land, ask some of the organizers to talk it over
-              with you. The more you can take on the logistical work surrounding
+              with you. A good place to start is the{" "}
+              <Link href="https:/eastbaydsa.nationbuilder.com/about-committees">
+                list of committees on our website
+              </Link>. The more you can take on the logistical work surrounding
               your idea (and round up previously inactive members or interested
               non-members to help), the more likely you are to make it happen
               quickly.
@@ -156,8 +157,7 @@ class GetInvolvedSection extends PureComponent {
                 Local caucuses have formed around socialist feminism,
                 environmental justice, social housing, and the abolition of
                 prisons and policing. (The website always has an up-to-date list
-                of formally recognized caucuses.) We also have caucuses with
-                more subtle missions, like the Craft Caucus.
+                of formally recognized caucuses.)
               </P>
               <P>
                 Any member can form a caucus, for any reason. If you want your
@@ -175,18 +175,13 @@ class GetInvolvedSection extends PureComponent {
             </SideBar>
             <H3>Things that need an official, democratic sign-off</H3>
             <P>
-              While we encourage self-organizing, there are still a couple of
-              things where it’s important to get approval from the larger body
-              of the membership (or their elected representatives).
-            </P>
-            <P>
               <Strong>ELECTORAL ENDORSEMENTS:</Strong> You can feel free to get
               involved in a campaign as an individual, but the big-tent nature
               of our org makes it important that the collective membership gets
               to vote on it before someone starts claiming a DSA endorsement.
               Official endorsements require a full meeting and vote of the
               general membership (or in fast-moving and/or emergency
-              circumstances, a three-quarters vote from the Local Council.)
+              circumstances, a three-quarters vote from the Steering Committee.)
             </P>
             <div>
               <Figure
@@ -196,19 +191,18 @@ class GetInvolvedSection extends PureComponent {
               />
               <P>
                 <Strong>SPEAKING FOR THE GROUP:</Strong> Be mindful of when
-                you’re representing the Local and when you’re speaking as an
-                individual. This isn’t a hard and fast rule, but basically, if
-                you’re in communication with another organization, a business,
-                or the press, feel free to mention you’re a member and speak
-                your mind. There’s no muzzle here. Just make it clear you’re not
-                speaking on behalf of the organization until you’re sure it’s a
-                position approved by a democratic process. The Local Council
-                approves official chapter representatives for the purposes of
-                interacting with other organizations or within a coalition
-                space. Local Council and general membership meetings vote to
-                approve positions, events, and strategies for the chapter; any
-                work done by caucuses or ad hoc members should be presented as
-                such.
+                you’re representing the chapter and when you’re speaking as an
+                individual. If you’re in communication with another
+                organization, a business, or the press, feel free to mention
+                you’re a member and speak your mind. There’s no muzzle here.
+                However, just make it clear you’re not speaking on behalf of the
+                organization until you’re sure it’s a position approved by a
+                democratic process. The Steering Committee approves official
+                chapter representatives for the purposes of interacting with
+                other organizations or within a coalition space. Steering
+                Committee and general membership meetings vote to approve
+                positions, events, and strategies for the chapter; any work done
+                by caucuses or ad hoc members should be presented as such.
               </P>
             </div>
             <P>
@@ -228,19 +222,10 @@ class GetInvolvedSection extends PureComponent {
               meetings act as laboratories for new projects and initiatives.
             </P>
             <P>
-              If you’ve gotten involved with the internal and/or external
-              organizing committees (IOC and EOC) and find that there is a
-              specific need that is not being met by existing teams, you can
-              talk to an organizer about your ideas and work together to develop
-              a proposal for the membership or Local Council to vote on. If
-              there’s a specific organizational need that falls outside the
-              EOC/IOC frameworks (in the same way that the treasurer and the
-              secretary are necessarily council-level and independent), the
-              Local Council can authorize the creation of an official working
-              group by appointing two co-chairs, who will sit as nonvoting
-              members on the Local Council. All proposals for the Local Council
-              must be submitted by a member of the Local Council, but that
-              doesn’t mean they have to write it themselves!
+              If you’ve gotten involved and find that there is a specific need
+              that is not being met by existing teams, you can talk to an
+              organizer about your ideas and work together to develop a proposal
+              for the membership or Steering Committee to vote on.
             </P>
             <Graphic name="people-marching" alt="People marching" />
           </Container>

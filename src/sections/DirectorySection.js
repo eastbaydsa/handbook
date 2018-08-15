@@ -26,7 +26,7 @@ class DirectorySection extends PureComponent {
             </P>
             <Directory>
               <DirectoryItem
-                text="If you have a burning question for our Local Council Leadership"
+                text="If you have a burning question for our Steering Committee Leadership"
                 links={[
                   {
                     label: "Leadership",

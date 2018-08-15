@@ -34,7 +34,7 @@ class WelcomeSection extends PureComponent {
             <P>
               In just the past year, national DSA membership has quadrupled to
               over 30,000 members in all 50 states. Here in the East Bay, our
-              active membership has grown even faster, as a dozen-strong
+              active membership has grown even faster, as a small
               donuts-and-conversation group suddenly took on hundreds of new
               members. An all-volunteer force built the chapter as we know it
               (its structure, processes, and culture, right down to this

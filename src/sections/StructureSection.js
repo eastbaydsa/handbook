@@ -43,44 +43,23 @@ class StructureSection extends PureComponent {
             </P>
             <P>
               The primary bodies to keep track of are the{" "}
-              <Strong>General Membership</Strong>, the{" "}
-              <Strong>Local Council</Strong> (LC), the{" "}
-              <Strong>Internal Organizing Committee</Strong> (IOC), and the{" "}
-              <Strong>External Organizing Committee</Strong> (EOC).
+              <Strong>General Membership</Strong>, and the{" "}
+              <Strong>Steering Committee</Strong> (SC)
             </P>
             <P>
               <Strong>THE GENERAL MEMBERSHIP:</Strong> That’s all of us and
               where power rests. We meet as a body to set priorities at a yearly
-              convention, and gather every two months for general meetings to
-              vote on important questions. A petition signed by 10 percent of
-              the membership can also trigger action.
+              convention, and gather regularly for general meetings to vote on
+              important questions.
             </P>
             <P>
-              <Strong>THE LOCAL COUNCIL</Strong> (LC): This is the elected
+              <Strong>THE STEERING COMMITTEE</Strong> (SC): This is the elected
               leadership and the second-highest body after the general
               membership. It manages the chapter’s day-to-day affairs, provides
               oversight, and resolves conflicts. It consists of thirteen elected
               members who serve roughly one-year terms.
             </P>
-            <P>
-              <Strong>THE INTERNAL ORGANIZING COMMITTEE</Strong> (IOC): This
-              committee is responsible for fostering a lively, participatory
-              democratic culture in our organization. That includes new member
-              onboarding, political education, social events, and more.
-            </P>
-            <div>
-              <Figure
-                graphic="single-payer"
-                alt="Patients and medical professionals raise their fists into the air"
-                align="right"
-              />
-              <P>
-                <Strong>THE EXTERNAL ORGANIZING COMMITTEE</Strong> (EOC): This
-                committee is responsible for outward facing efforts, from public
-                outreach campaigns to direct action.
-              </P>
-            </div>
-            <SideBar title="Who is the local council?" theme="purple">
+            <SideBar title="Who is the steering committee?" theme="purple">
               <P>
                 The Council consists of 13 elected (voting) members, for good
                 luck. These are:
@@ -98,10 +77,18 @@ class StructureSection extends PureComponent {
                 co-chairs aren’t able to fulfill their duties.
               </P>
               <P>
-                <Strong>One Secretary:</Strong> The secretary takes notes and
-                makes sure that minutes of all general membership and LC
-                meetings are freely available along with any other outputs of
-                meetings. They manage the institutional knowledge of the Local.
+                <Strong>One Recording Secretary:</Strong> The secretary is
+                responsible for taking the minutes of all general membership and
+                Steering Committee meetings and reporting the minutes,
+                resolutions, reports, and other official records of the chapter.
+                The recording secretary may appoint, but must oversee, a
+                temporary proxy minutes-taker for any meeting.
+              </P>
+              <P>
+                <Strong>One Communications Secretary:</Strong> The
+                communications secretary is responsible for the member
+                newsletter and website, though each of these functions may be
+                substantially delegated to or shared with designated committees.
               </P>
               <P>
                 <Strong>One Treasurer:</Strong> The treasurer is responsible for
@@ -110,26 +97,13 @@ class StructureSection extends PureComponent {
                 finances, periodically reported out.
               </P>
               <P>
-                <Strong>Three Elected Internal Organizers:</Strong> Internal
-                organizers are responsible for fostering a lively participatory
-                democratic culture and making sure no one falls through the
-                cracks. They oversee the Internal Organizing Committee (IOC) and
-                head up internally focused events, fundraisers, and educational
-                efforts.
-              </P>
-              <P>
-                <Strong>Three Elected External Organizers:</Strong> External
-                organizers oversee the External Organizing Committee (EOC) and
-                are responsible for outward facing efforts like electoral
-                campaigns, direct actions, rallies, and otherwise
-                propagandizing.
-              </P>
-              <P>
-                <Strong>Two At-Large Council Members:</Strong> They’re sort of
-                like “ministers without portfolio” in the UK. Because they’re
-                not tasked with specific roles, they can think a bit more deeply
-                about Local Council decision-making and can speak for the
-                membership as their main focus.
+                <Strong>Seven At-Large Council Members:</Strong> At-large
+                Steering Committee members participate in Steering Committee
+                decision-making and are responsible for attending all relevant
+                meetings and reading all relevant documents. At-large Steering
+                Committee members are also tasked with representing the views of
+                the membership that elected them as well as helping to advance
+                the goals of the chapter generally.
               </P>
             </SideBar>
           </Container>

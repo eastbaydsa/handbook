@@ -24,7 +24,7 @@ class WhySection extends PureComponent {
             <P>
               DSA’s surge in membership is part of the post-2016 election
               reality, a recognition of the crisis in American politics from
-              healthcare to DACA to the EPA to Nazis marching in
+              healthcare to immigration, from the EPA to Nazis marching in
               Charlottesville. More and more people are fed up with a system
               that seems to benefit no one but the rich and powerful. Young
               people are looking around and seeing that the planet we’ve
