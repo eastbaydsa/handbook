@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import Directory from "../components/directory/Directory";
 import DirectoryItem from "../components/directory/DirectoryItem";
-import { H2, P } from "../components/typography";
+import { H2 } from "../components/typography";
 import Container from "../components/Container";
 import Section from "../components/Section";
 import NavAnchor from "../components/NavAnchor";
@@ -14,133 +14,109 @@ class DirectorySection extends PureComponent {
         <Section>
           <Container>
             <H2>Directory</H2>
-            <P>
-              Trying to reach out but not sure who you should talk to? Look no
-              further!
-            </P>
-            <P>
-              Bear in mind, though, that like everything else, our departments
-              are all-volunteer. Depending on communications backlog and the
-              number of people we have on a given address, turnaround could be
-              anywhere from a few minutes to a week.
-            </P>
             <Directory>
               <DirectoryItem
-                text="If you have a burning question for our Steering Committee Leadership"
+                text="Branches"
+                description="A list of the geographical-based chapter bodies currently organizing with our chapter."
                 links={[
                   {
-                    label: "Leadership",
-                    href: "mailto:localcouncil@eastbaydsa.org"
+                    label: "eastbaydsa.org/branches",
+                    href: "https://eastbaydsa.org/branches"
                   }
                 ]}
               />
               <DirectoryItem
-                text="New to East Bay DSA and not sure where to plug in?"
+                text="Campaigns, Committees and Working Groups"
+                description="An overview of the current active organizing projects within East Bay DSA, along with contact info for each. Please note that the best way to get in contact with a particular Campaign, Committee, or Working Group may be via Discord, or by attending an event hosted by that body on the chapter Events Calendar."
                 links={[
                   {
-                    label: "New Members",
-                    href: "mailto:newmember@eastbaydsa.org"
+                    label: "eastbaydsa.org/campaigns",
+                    href: "https://eastbaydsa.org/campaigns"
                   }
                 ]}
               />
               <DirectoryItem
-                text="For inquiries about events"
+                text="Chapter Bylaws"
+                description="The democratic structures through which we make decisions, carry out collective goals, and elect accountable leaders."
                 links={[
                   {
-                    label: "Events",
-                    href: "mailto:events@eastbaydsa.org"
+                    label: "eastbaydsa.org/bylaws",
+                    href: "https://eastbaydsa.org/bylaws"
                   }
                 ]}
               />
               <DirectoryItem
-                text="The memes of production"
+                text="Chapter Platform"
+                description="An outline of our ongoing strategies and issues to focus on, with unity and urgency, toward achieving a democratic socialist world together."
                 links={[
                   {
-                    label: "Communications",
-                    href: "mailto:communications@eastbaydsa.org"
+                    label: "eastbaydsa.org/platform",
+                    href: "https://eastbaydsa.org/platform"
                   }
                 ]}
               />
               <DirectoryItem
-                text="Educational events and opportunities"
+                text="Code of Conduct"
+                description="The chapter has a code of conduct which we expect all members to follow."
                 links={[
                   {
-                    label: "Education",
-                    href: "mailto:education@eastbaydsa.org"
+                    label: "eastbaydsa.org/conduct",
+                    href: "https://eastbaydsa.org/conduct"
                   }
                 ]}
               />
               <DirectoryItem
-                text="Make sure people can find their lane"
+                text="Discord"
+                description="Our chapter’s Discord channel is where the conversation happens! Get in touch with comrades, get involved in our work, ask questions, and hang out."
                 links={[
                   {
-                    label: "Internal Organizing",
-                    href: "mailto:internalorganizing@eastbaydsa.org"
+                    label: "eastbaydsa.org/discord",
+                    href: "https://eastbaydsa.org/discord"
+                  }
+                ]}
+              />
+              <DirectoryItem
+                text="Events Calendar"
+                description="The central location to find out what’s happening in East Bay DSA. Any event with a rose emoji 🌹 is designed to be accessible to New Members, so feel free to RSVP and show up!"
+                links={[
+                  {
+                    label: "eastbaydsa.org/events",
+                    href: "https://eastbaydsa.org/events"
+                  }
+                ]}
+              />
+              <DirectoryItem
+                text="Give Local Solidarity Dues"
+                description="Local dues go directly to our chapter, and are a fantastic way to support the work we do. (Please note, local dues are not required, nor do they make you an official member of the Democratic Socialists of America - Join National DSA to become an official member!)"
+                links={[
+                  {
+                    label: "eastbaydsa.org/dues",
+                    href: "https://eastbaydsa.org/dues"
+                  }
+                ]}
+              />
+              <DirectoryItem
+                text="Grievances"
+                description="Grievance Stewards are available to answer any questions you may have about grievances, and if you would like to initiate a grievance process, they will help you do that, confidentially."
+                links={[
+                  {
+                    label: "eastbaydsa.org/grievance",
+                    href: "https://eastbaydsa.org/grievance"
+                  }
+                ]}
+              />
+              <DirectoryItem
+                text="Join National DSA"
+                description="To become a member of East Bay DSA, join National DSA with an address within the East Bay! This gives you voting power in our chapter, access to our chapter Discord channel, and membership in the largest socialist organization in our country’s history. Dues are on a sliding scale, with the option of a financial hardship dues waiver. Join today!"
+                links={[
+                  {
+                    label: "dsausa.org/join",
+                    href: "https://dsausa.org/join"
                   }
                 ]}
               />
             </Directory>
             <Graphic name="community-activism" />
-            <Directory>
-              <DirectoryItem
-                text="Win friends, irritate neoliberals"
-                links={[
-                  {
-                    label: "External Organizing",
-                    href: "mailto:externalorganizing@eastbaydsa.org"
-                  }
-                ]}
-              />
-              <DirectoryItem
-                text="Single. Payer. Is. Our. Fight."
-                links={[
-                  {
-                    label: "Single Payer",
-                    href: "mailto:singlepayer@eastbaydsa.org"
-                  }
-                ]}
-              />
-              <DirectoryItem
-                text="To refuse, resist and otherwise get the goods"
-                links={[
-                  {
-                    label: "Direct Action",
-                    href: "mailto:directaction@eastbaydsa.org"
-                  }
-                ]}
-              />
-              <DirectoryItem
-                text="Got a good shot?"
-                links={[
-                  {
-                    label: "Photos",
-                    href: "mailto:photos@eastbaydsa.org"
-                  }
-                ]}
-              />
-              <DirectoryItem
-                text="Until capitalism is abolished (reimbursements, budgets, tax status questions and other money-related logistics)"
-                links={[
-                  {
-                    label: "Finance",
-                    href: "mailto:finance@eastbaydsa.org"
-                  }
-                ]}
-              />
-              <DirectoryItem
-                text="Oh, yeah. We’re online."
-                links={[
-                  {
-                    label: "facebook.com/eastbaydsa",
-                    href: "http://facebook.com/eastbaydsa"
-                  },
-                  {
-                    label: "twitter.com/DSAEastBay",
-                    href: "http://twitter.com/DSAEastBay"
-                  }
-                ]}
-              />
-            </Directory>
           </Container>
         </Section>
       </NavAnchor>

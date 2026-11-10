@@ -32,6 +32,13 @@ const Title = styled.p`
   flex: 1 1 auto;
 `;
 
+const Description = styled.p`
+  margin: 10px 0 15px 0;
+  font-size: 10rem;
+  line-height: 1.3;
+  flex: 1 1 auto;
+`;
+
 const StyledLink = styled(Link)`
   display: block;
   color: white;
@@ -41,7 +48,12 @@ class DirectoryItem extends PureComponent {
   render() {
     return (
       <Wrapper>
-        <Title>{this.props.text}</Title>
+        <Title style={this.props.description ? { flex: "0 0 auto" } : null}>
+          {this.props.text}
+        </Title>
+        {this.props.description ? (
+          <Description>{this.props.description}</Description>
+        ) : null}
         {this.props.links.map(l => (
           <div key={l.href}>
             <StyledLink

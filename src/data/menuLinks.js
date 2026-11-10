@@ -1,11 +1,12 @@
 export default [
   { label: "Welcome", to: "/welcome" },
-  { label: "Why are we here?", to: "/why" },
-  { label: "What does it mean to be a member?", to: "/membership" },
-  {
-    label: "What's the organizational structure of the DSA?",
-    to: "/structure"
-  },
-  { label: "What do I do as a member?", to: "/get-involved" },
+  { label: "DSA’s Origins", to: "/origins" },
+  { label: "Why Socialism?", to: "/why" },
+  { label: "Membership", to: "/membership" },
+  { label: "Code of Conduct", to: "/conduct" },
+  { label: "How is DSA Structured?", to: "/structure" },
+  { label: "How do I get involved?", to: "/get-involved" },
+  { label: "Caucuses", to: "/caucuses" },
+  { label: "Frequently Asked Questions", to: "/faq" },
   { label: "Directory", to: "/directory" }
 ];

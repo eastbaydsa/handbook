@@ -1,10 +1,8 @@
 import React, { PureComponent } from "react";
-import SideBar from "../components/SideBar";
 import { H2, H3, P, Strong } from "../components/typography";
 import Container from "../components/Container";
 import Section from "../components/Section";
 import NavAnchor from "../components/NavAnchor";
-import Figure from "../components/Figure";
 import Link from "../components/Link";
 
 class StructureSection extends PureComponent {
@@ -13,14 +11,19 @@ class StructureSection extends PureComponent {
       <NavAnchor anchor={this.props.anchor}>
         <Section>
           <Container>
-            <H2>What’s the organizational structure of DSA?</H2>
+            <H2>How is DSA Structured?</H2>
+            <H3>National Organization</H3>
             <P>
-              DSA is a national confederation of local chapters. Every two
-              years, chapters send delegates to a national convention. The
-              delegates debate proposals, set priorities, and elect a 16-person
-              body known as the National Political Council (NPC), which works to
-              carry out the democratically determined priorities of the national
-              organization over the following two years.
+              DSA is a national organization, although most of its work is
+              carried out by local chapters. Every two years, each chapter sends
+              elected delegates to a <Strong>National Convention</Strong>. The
+              delegates debate proposals, set priorities, and elect a 25-person
+              body known as the{" "}
+              <Strong>National Political Committee (NPC)</Strong>, which works
+              to carry out the democratically determined priorities of the
+              national organization over the following two years. The National
+              organization also works on labor, elections, international
+              solidarity, and more.
             </P>
             <P>
               It’s worth noting that national priorities don’t mean we can’t
@@ -33,79 +36,65 @@ class StructureSection extends PureComponent {
               interests that could never be achieved without national
               coordination. A finger is weak, but a fist is strong.
             </P>
-            <H3>Local structure</H3>
+            <a href="/images/org-chart.png">
+              <img
+                src="/images/org-chart.png"
+                alt="East Bay DSA org chart. The General Membership elects the Steering Committee (with the Propaganda Team, Comms Secretary, Bay Area Current and Grievance Stewards) and the Chapter Coordination Committee (with the New Member Cohort Team, Membership Development Team, Meetings Team, Red Rabbits, Tech Team, Disability Justice Working Group and Office Team). The General Membership authorizes Priority Campaigns, Working Groups, Electoral Endorsements, Committees (Anti-Imperialism, Stop Cop Nation, Housing, Climate Action, Socialism Beats Fascism, Political Education, Migrants Defense, Labor) and Branches (Contra Costa, Solano & Napa Region, Chochenyo Baylands & Valley)."
+                style={{ width: "100%", height: "auto", marginBottom: "30px" }}
+              />
+            </a>
+            <H3>East Bay Chapter</H3>
             <P>
               The following is a breezy paraphrase of the official bylaws for
-              East Bay DSA, which can be found in full at{" "}
-              <Link href="http://eastbaydsa.org/resources-bylaws">
-                eastbaydsa.org/resources-bylaws
-              </Link>.
+              East Bay DSA, which can be found in full on our{" "}
+              <Link href="https://www.eastbaydsa.org/bylaws/">website</Link>.
             </P>
             <P>
-              The primary bodies to keep track of are the{" "}
-              <Strong>General Membership</Strong>, and the{" "}
-              <Strong>Steering Committee</Strong> (SC)
+              <Strong>General Membership:</Strong> That’s all of us, and where
+              power rests. We meet as a body to set priorities at an annual
+              convention, and gather regularly for General Meetings (GMs) to
+              vote on important questions. Membership elects the Steering
+              Committee, which is tasked with implementing the will of the
+              membership as determined by General Meetings and convention. East
+              Bay DSA is all of us!
             </P>
             <P>
-              <Strong>THE GENERAL MEMBERSHIP:</Strong> That’s all of us and
-              where power rests. We meet as a body to set priorities at a yearly
-              convention, and gather regularly for general meetings to vote on
-              important questions.
+              <Strong>Steering Committee (SC):</Strong> This is the
+              second-highest chapter body, elected annually to one-year terms by
+              all members in good standing, with a maximum of three consecutive
+              terms. SC makes time-sensitive political and financial decisions
+              that can’t wait for a General Meeting, or that aren’t significant
+              enough to go to a GM. Steering consists of 9 elected (voting)
+              members. These are: two Co-Chairs, one Recording Secretary, one
+              Vice-Chair, one Treasurer, and four At-Large Members.
             </P>
             <P>
-              <Strong>THE STEERING COMMITTEE</Strong> (SC): This is the elected
-              leadership and the second-highest body after the general
-              membership. It manages the chapter’s day-to-day affairs, provides
-              oversight, and resolves conflicts. It consists of thirteen elected
-              members who serve roughly one-year terms.
+              <Strong>Chapter Coordination Committee (CCC):</Strong> This
+              umbrella committee coordinates the more internal-facing aspects of
+              the chapter. Two CCC co-chairs are elected annually to help ensure
+              these bodies are functioning and interfacing with the rest of the
+              chapter well.
             </P>
-            <SideBar title="Who is the steering committee?" theme="purple">
-              <P>
-                The Council consists of 13 elected (voting) members, for good
-                luck. These are:
-              </P>
-              <P>
-                <Strong>Two Co-Chairs:</Strong> Co-chairs organize and preside
-                over meetings of the Council. They also act as “executive
-                officers” when the situation requires it, acting as official
-                spokespeople, putting their names on financial documents, and
-                managing communications with National or other chapters.
-              </P>
-              <P>
-                <Strong>One Vice-Chair:</Strong> The vice-chair assists the
-                co-chairs with their duties and fills in if either of the
-                co-chairs aren’t able to fulfill their duties.
-              </P>
-              <P>
-                <Strong>One Recording Secretary:</Strong> The secretary is
-                responsible for taking the minutes of all general membership and
-                Steering Committee meetings and reporting the minutes,
-                resolutions, reports, and other official records of the chapter.
-                The recording secretary may appoint, but must oversee, a
-                temporary proxy minutes-taker for any meeting.
-              </P>
-              <P>
-                <Strong>One Communications Secretary:</Strong> The
-                communications secretary is responsible for the member
-                newsletter and website, though each of these functions may be
-                substantially delegated to or shared with designated committees.
-              </P>
-              <P>
-                <Strong>One Treasurer:</Strong> The treasurer is responsible for
-                dealing with fundraising, budgeting, expenditures, and keeping
-                the financial ship in order. They keep transparent and open
-                finances, periodically reported out.
-              </P>
-              <P>
-                <Strong>Seven At-Large Council Members:</Strong> At-large
-                Steering Committee members participate in Steering Committee
-                decision-making and are responsible for attending all relevant
-                meetings and reading all relevant documents. At-large Steering
-                Committee members are also tasked with representing the views of
-                the membership that elected them as well as helping to advance
-                the goals of the chapter generally.
-              </P>
-            </SideBar>
+            <P>
+              <Strong>Branches:</Strong> These are geographically-bounded
+              chapter bodies approved to both implement existing chapter work in
+              their areas, and bring proposals for new work that would be
+              specifically strategic or meaningful to their area.
+            </P>
+            <P>
+              <Strong>Working Groups:</Strong> Generally approved for more
+              temporary or experimental work, these chapter bodies usually get
+              an initial charter of 6 months. They can apply to become
+              committees later, if they choose.
+            </P>
+            <P>
+              <Strong>Steering Committee Appointees:</Strong> The Propaganda
+              Team, the Bay Area Current (EBDSA’s outward-facing news
+              publication), and the Grievance Team, report directly to the SC.
+              Steering appoints the Stewards, Officers, Comms Secretary, and
+              leaders of CCC teams. All other Committees and Campaigns are
+              subject to renewal at chapter convention each year.
+            </P>
           </Container>
         </Section>
       </NavAnchor>
