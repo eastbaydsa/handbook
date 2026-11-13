@@ -20,16 +20,13 @@ class WhySection extends PureComponent {
       <NavAnchor anchor={this.props.anchor}>
         <Section>
           <Container>
-            <H2>Why are we here?</H2>
+            <H2>Why Socialism?</H2>
             <P>
-              DSA’s surge in membership is part of the post-2016 election
-              reality, a recognition of the crisis in American politics from
-              healthcare to immigration, from the EPA to Nazis marching in
-              Charlottesville. More and more people are fed up with a system
-              that seems to benefit no one but the rich and powerful. Young
-              people are looking around and seeing that the planet we’ve
-              inherited is falling apart, and that capitalism has nothing to
-              offer except debt, depression, and wage slavery.
+              More and more of us are fed up with a system that seems to benefit
+              no one but the rich and powerful. If you’re here, you’re probably
+              also noticing that the planet we’ve inherited is falling apart,
+              and that capitalism has nothing to offer except debt, depression,
+              and wage slavery.
             </P>
             <SideBar title="A simple drink of water" theme="purple">
               <P>
@@ -55,25 +52,23 @@ class WhySection extends PureComponent {
               </P>
             </SideBar>
             <P>
-              The powers that be can’t and won’t deliver a world of peace,
-              freedom, and human dignity; we’re going to have to do that
-              ourselves.
+              Those in power can’t and won’t deliver a world of peace, freedom,
+              and human dignity; we’re going to have to do that ourselves.
             </P>
             <P>
-              Democratic socialism starts from the basic belief that every human
+              Democratic Socialism starts from the basic belief that every human
               life is important, and that we have a right to make decisions
               about the world we create together. The basic needs of life—clean
               air, water, food, shelter, education—should be considered
               fundamental human rights, not an opportunity for someone to make a
-              buck.
+              buck. That’s why we say “people over profit.”
             </P>
             <P>
               It’s important to recognize that exploitation and abuse aren’t
-              occasional side-effects of capitalism. Instead, they’re actually
-              necessary to its function. Young people are learning through their
-              own experiences what Marx observed 150 years ago: The world’s
-              monetary wealth is accumulated by taking advantage of other
-              people’s need to survive.
+              occasional side-effects of capitalism-- they are necessary to its
+              function. People are learning through their own experiences what
+              Marx observed 150 years ago: The world’s monetary wealth is
+              accumulated by taking advantage of other people’s need to survive.
             </P>
             <FlexOnTablet>
               <Figure graphic="solidarity-in-action">
@@ -92,14 +87,14 @@ class WhySection extends PureComponent {
               </P>
             </FlexOnTablet>
             <P>
-              To get there, our strategy is to build working-class political
-              power from the grassroots. We are organizing face-to-face in our
-              neighborhoods and workplaces, in churches and in dive bars. (Many
-              of our new members have joined up after a canvasser knocked on
-              their door and had a deeply real conversation with them.) We’re
-              forging a democratic, volunteer, and member-run network of
-              accountable relationships, so we can take collective action again
-              and again.
+              <Strong>
+                To get there, our strategy is to build working-class political
+                power from the grassroots.
+              </Strong>{" "}
+              We are organizing face-to-face in our neighborhoods and
+              workplaces, in churches and in dive bars. We’re forging a
+              democratic, volunteer- and member-run network of accountable
+              relationships, so we can take collective action again and again.
             </P>
             <P>
               <Strong>That’s real power.</Strong> We use it to defend each other

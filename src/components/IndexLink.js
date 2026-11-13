@@ -8,6 +8,8 @@ const Number = styled.span`
   font-weight: 700;
   color: ${red};
   margin: 0 24px;
+  min-width: 30px;
+  flex-shrink: 0;
 `;
 
 const Wrapper = styled.div`
