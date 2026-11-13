@@ -3,7 +3,6 @@ module.exports = {
   parser: "babel-eslint",
   settings: {
     "import/resolver": {
-      "babel-module": {},
       webpack: true
     }
   },
