@@ -555,16 +555,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aria-query@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "aria-query@npm:3.0.0"
-  dependencies:
-    ast-types-flow: "npm:0.0.7"
-    commander: "npm:^2.11.0"
-  checksum: 10c0/1cdefd243f1abe52481618faaf46bccd072f94b3405941646eee026e7a6c0cd55832849e386a7b27629e49392a91dabb1ab6962f2ab30effacae80bc624f373c
-  languageName: node
-  linkType: hard
-
 "arr-diff@npm:^2.0.0":
   version: 2.0.0
   resolution: "arr-diff@npm:2.0.0"
@@ -760,7 +750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ast-types-flow@npm:0.0.7, ast-types-flow@npm:^0.0.7":
+"ast-types-flow@npm:0.0.7":
   version: 0.0.7
   resolution: "ast-types-flow@npm:0.0.7"
   checksum: 10c0/f381529f2da535949ba6cceddbdfaa33b4d5105842e147ec63582f560ea9ecc1a08f66457664f3109841d3053641fa8b9fa94ba607f1ea9f6c804fe5dee44a1d
@@ -877,15 +867,6 @@ __metadata:
   dependencies:
     ast-types-flow: "npm:0.0.7"
   checksum: 10c0/7ec2239cfce948e2f25b14ffba5d4d509d642b991d42de8f0bd251b5491c99204d79c1557d6d1cff7655b43caa50df9b86e487794edc8376ba5a78a6f0255798
-  languageName: node
-  linkType: hard
-
-"axobject-query@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "axobject-query@npm:2.0.1"
-  dependencies:
-    ast-types-flow: "npm:0.0.7"
-  checksum: 10c0/a66fa2e0716552a10e50d63ab478a4b7fba6d0133ed2f091103e00df6b4caec83b87af51d04c86347f2315f1dafa01fab67212311c5206a146f16a209fd33fbf
   languageName: node
   linkType: hard
 
@@ -3437,7 +3418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"damerau-levenshtein@npm:^1.0.0, damerau-levenshtein@npm:^1.0.4":
+"damerau-levenshtein@npm:^1.0.0":
   version: 1.0.4
   resolution: "damerau-levenshtein@npm:1.0.4"
   checksum: 10c0/7c37386d787fb59b73e0833e2bc97440edbdc76f11f49465cd5c8133014b17d42d21de9ffeb262787a3c0eca788bb03152b0f0a6e9650001928fbee38da764ea
@@ -3950,7 +3931,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-regex@npm:^6.1.0, emoji-regex@npm:^6.5.1":
+"emoji-regex@npm:^6.1.0":
   version: 6.5.1
   resolution: "emoji-regex@npm:6.5.1"
   checksum: 10c0/3b10dc0f94a22cec77bd9822fdc3e2fee8b897a742976c060a7463451ec6298d6e7154df37c117c54f5808910dc402808b41e75088a984c35ba2315cca5eeec8
@@ -4366,24 +4347,6 @@ __metadata:
   peerDependencies:
     eslint: ^2.10.2 || ^3 || ^4
   checksum: 10c0/abebf6db2291abb621779261a02c7c5c492b402e6cc4f741150a6362a61b819293ead6ff6949ce0b7d1f54a153fa9d1ba05392d870c656e3c5b71260f507cca6
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-jsx-a11y@npm:^6.0.2":
-  version: 6.1.1
-  resolution: "eslint-plugin-jsx-a11y@npm:6.1.1"
-  dependencies:
-    aria-query: "npm:^3.0.0"
-    array-includes: "npm:^3.0.3"
-    ast-types-flow: "npm:^0.0.7"
-    axobject-query: "npm:^2.0.1"
-    damerau-levenshtein: "npm:^1.0.4"
-    emoji-regex: "npm:^6.5.1"
-    has: "npm:^1.0.3"
-    jsx-ast-utils: "npm:^2.0.1"
-  peerDependencies:
-    eslint: ^3 || ^4 || ^5
-  checksum: 10c0/e4fedfb728c3dcb59f52f0582c73f8400b27ebea3738a5d64488bee11a4a07eba4b390ef16614f3b17ff72a1ae0e8a06d98ae7e5e3fe3decc11f2f68412d6d7f
   languageName: node
   linkType: hard
 
@@ -5851,7 +5814,7 @@ __metadata:
     eslint-config-react-app: "npm:^2.0.1"
     eslint-import-resolver-babel-module: "npm:^4.0.0-beta.5"
     eslint-plugin-import: "npm:^2.8.0"
-    eslint-plugin-jsx-a11y: "npm:^6.0.2"
+    eslint-plugin-jsx-a11y: "npm:5.1.1"
     eslint-plugin-prettier: "npm:^2.3.1"
     eslint-plugin-react: "npm:^7.5.1"
     next: "npm:^4.1.4"
