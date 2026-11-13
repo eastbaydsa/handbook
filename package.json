@@ -1,6 +1,7 @@
 {
   "name": "handbook",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "homepage": "https://handbook.eastbaydsa.org",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
@@ -23,7 +24,7 @@
     "eslint-config-react-app": "^2.0.1",
     "eslint-import-resolver-babel-module": "^4.0.0-beta.5",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.5.1",
     "next": "^4.1.4",
@@ -34,10 +35,9 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "deploy": "surge --domain handbook.eastbaydsa.org --project ./build"
-  }
+    "start": "node node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "node node_modules/react-scripts/bin/react-scripts.js test --env=jsdom"
+  },
+  "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538"
 }
