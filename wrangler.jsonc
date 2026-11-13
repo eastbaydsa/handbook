@@ -1,7 +1,12 @@
 {
-  // ...
+  "name": "handbook",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./build",
+    "not_found_handling": "single-page-application"
+  },
+  "previews": {},
   "observability": {
     "enabled": false
   },
-  // ...
 }
